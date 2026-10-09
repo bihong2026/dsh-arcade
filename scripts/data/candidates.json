@@ -1,14 +1,26 @@
 [
  {
+  "slug": "green-mahjong",
+  "name": "Green Mahjong",
+  "category": "board",
+  "tags": [],
+  "description": "Solitaire mahjong game with several themes and layouts. For android/iphone/ubuntu/firefoxos",
+  "tech": "html5",
+  "embed": "https://danbeck.github.io/green-mahjong/",
+  "source_repo": "https://github.com/danbeck/green-mahjong",
+  "license": "custom",
+  "page_title": "Daniel Beck – Physalis, Green Mahjong, Ubuntu ..."
+ },
+ {
   "slug": "alge-s-escapade",
   "name": "Alge's Escapade",
   "category": "platformer",
   "tags": [],
+  "description": "Alge's Escapade",
   "tech": "html5",
   "embed": "https://dave-and-mike.github.io/game-off-2012/",
   "source_repo": "https://github.com/Dave-and-Mike/game-off-2012",
-  "license": "MIT (verify)",
-  "description": "Alge's Escapade",
+  "license": "custom",
   "page_title": "Alge's Escapade"
  },
  {
@@ -16,11 +28,11 @@
   "name": "Alien Invasion",
   "category": "shooter",
   "tags": [],
+  "description": "Demo Game for Mobile HTML5 Game Development",
   "tech": "html5",
   "embed": "https://cykod.github.io/AlienInvasion/",
   "source_repo": "https://github.com/cykod/AlienInvasion",
   "license": "GPL-2.0",
-  "description": "Demo Game for Mobile HTML5 Game Development",
   "page_title": "Alien Invasion"
  },
  {
@@ -28,11 +40,11 @@
   "name": "Arashi",
   "category": "arcade",
   "tags": [],
+  "description": "ArashiJS is a Tempest-clone in JavaScript / HTML5",
   "tech": "html5",
   "embed": "https://stephank.github.io/arashi-js/",
   "source_repo": "https://github.com/stephank/arashi-js",
   "license": "GPL-2.0",
-  "description": "ArashiJS is a Tempest-clone in JavaScript / HTML5",
   "page_title": "ArashiJS"
  },
  {
@@ -40,11 +52,11 @@
   "name": "Avabranch",
   "category": "arcade",
   "tags": [],
+  "description": "Avabranch",
   "tech": "html5",
   "embed": "https://zolmeister.github.io/avabranch/",
   "source_repo": "https://github.com/Zolmeister/avabranch",
   "license": "MIT",
-  "description": "Avabranch",
   "page_title": "Avabranch"
  },
  {
@@ -52,11 +64,11 @@
   "name": "Ball And Wall",
   "category": "arcade",
   "tags": [],
+  "description": "Ball And Wall - Arkanoid style game",
   "tech": "html5",
   "embed": "https://budnix.github.io/ball-and-wall/",
   "source_repo": "https://github.com/budnix/ball-and-wall",
   "license": "MIT",
-  "description": "Ball And Wall - Arkanoid style game",
   "page_title": "Ball And Wall - Simple arkanoid style game"
  },
  {
@@ -64,11 +76,11 @@
   "name": "Clumsy Bird",
   "category": "arcade",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://ellisonleao.github.io/clumsy-bird/",
   "source_repo": "https://github.com/ellisonleao/clumsy-bird",
-  "license": "MIT (verify)",
-  "description": "Clumsy Bird",
+  "license": "custom",
   "page_title": "Clumsy Bird"
  },
  {
@@ -76,11 +88,11 @@
   "name": "Coil",
   "category": "arcade",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://leereilly.github.io/Coil/",
   "source_repo": "https://github.com/leereilly/Coil",
-  "license": "MIT (verify)",
-  "description": "Coil - Use your trail to enclose enemies in this reflex HTML5 game.",
+  "license": "MIT",
   "page_title": "Coil - Use your trail to enclose enemies in this reflex HTML5 game."
  },
  {
@@ -88,11 +100,11 @@
   "name": "Color Quest",
   "category": "platformer",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://redbluegames.github.io/game-off-2013/",
   "source_repo": "https://github.com/redbluegames/game-off-2013",
-  "license": "MIT (verify)",
-  "description": "Color Quest - Red Blue Games",
+  "license": "GPL",
   "page_title": "Color Quest - Red Blue Games"
  },
  {
@@ -100,11 +112,11 @@
   "name": "Custom Tetris",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://ondras.github.io/custom-tetris/",
   "source_repo": "https://github.com/ondras/custom-tetris",
-  "license": "MIT (verify)",
-  "description": "Custom Tetris",
+  "license": "custom",
   "page_title": "Custom Tetris"
  },
  {
@@ -112,11 +124,11 @@
   "name": "Digger",
   "category": "arcade",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://lutzroeder.github.io/digger/",
   "source_repo": "https://github.com/lutzroeder/digger",
-  "license": "MIT (verify)",
-  "description": "Digger",
+  "license": "custom",
   "page_title": "Digger"
  },
  {
@@ -124,11 +136,11 @@
   "name": "Drill Bunny",
   "category": "arcade",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://dreamshowadventures.github.io/LudumDare29/",
   "source_repo": "https://github.com/DreamShowAdventures/LudumDare29",
-  "license": "MIT (verify)",
-  "description": "Chacket Valleyparker: DRILL BUNNY",
+  "license": "custom",
   "page_title": "Chacket Valleyparker: DRILL BUNNY"
  },
  {
@@ -136,11 +148,11 @@
   "name": "Emberwind",
   "category": "platformer",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://operasoftware.github.io/Emberwind/",
   "source_repo": "https://github.com/operasoftware/Emberwind",
-  "license": "MIT (verify)",
-  "description": "Emberwind",
+  "license": "BSD",
   "page_title": "Emberwind"
  },
  {
@@ -148,11 +160,11 @@
   "name": "Hyperspace Garbage Collector",
   "category": "platformer",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://razh.github.io/game-off-2013/",
   "source_repo": "https://github.com/razh/game-off-2013",
-  "license": "MIT (verify)",
-  "description": "Hyperspace Garbage Collection",
+  "license": "MIT",
   "page_title": "Hyperspace Garbage Collection"
  },
  {
@@ -160,11 +172,11 @@
   "name": "Masonry JavaScript Tetris Clone",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://gamedolphin.github.io/Masonry-JavaScript-Tetris-Clone/",
   "source_repo": "https://github.com/gamedolphin/Masonry-JavaScript-Tetris-Clone",
-  "license": "MIT (verify)",
-  "description": "Masonry - Game Dolphin",
+  "license": "custom",
   "page_title": "Masonry - Game Dolphin"
  },
  {
@@ -172,11 +184,11 @@
   "name": "Monster Wants Candy",
   "category": "casual",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://enclavegames.github.io/Monster-Wants-Candy-demo/",
   "source_repo": "https://github.com/EnclaveGames/Monster-Wants-Candy-demo",
-  "license": "MIT (verify)",
-  "description": "Monster Wants Candy demo",
+  "license": "custom",
   "page_title": "Monster Wants Candy demo"
  },
  {
@@ -184,11 +196,11 @@
   "name": "Octocat Jump",
   "category": "platformer",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://ogoshen.github.io/game-off-2012/",
   "source_repo": "https://github.com/ogoshen/game-off-2012",
-  "license": "MIT (verify)",
-  "description": "Octocat Jump",
+  "license": "custom",
   "page_title": "Octocat Jump"
  },
  {
@@ -196,11 +208,11 @@
   "name": "Ski Free",
   "category": "sports",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://basicallydan.github.io/skifree.js/",
   "source_repo": "https://github.com/basicallydan/skifree.js",
-  "license": "MIT (verify)",
-  "description": "Skifree.js",
+  "license": "custom",
   "page_title": "Skifree.js"
  },
  {
@@ -208,11 +220,11 @@
   "name": "Snake_new",
   "category": "arcade",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://rabiroshan.github.io/snake_game/",
   "source_repo": "https://github.com/RabiRoshan/snake_game",
-  "license": "MIT (verify)",
-  "description": "Snake v8",
+  "license": "custom",
   "page_title": "Snake v8"
  },
  {
@@ -220,11 +232,11 @@
   "name": "Spashal",
   "category": "shooter",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://mrrar.github.io/spashal/",
   "source_repo": "https://github.com/MrRar/spashal",
-  "license": "MIT (verify)",
-  "description": "Spashal",
+  "license": "custom",
   "page_title": "Spashal"
  },
  {
@@ -232,11 +244,11 @@
   "name": "Super Mario Bros",
   "category": "platformer",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://martindrapeau.github.io/backbone-game-engine/super-mario-bros/index.html",
   "source_repo": "https://github.com/martindrapeau/backbone-game-engine",
-  "license": "MIT (verify)",
-  "description": "Super Mario Bros Level 1-1 - Backbone Game Engine",
+  "license": "MIT",
   "page_title": "Super Mario Bros Level 1-1 - Backbone Game Engine"
  },
  {
@@ -244,11 +256,11 @@
   "name": "WPilot",
   "category": "shooter",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://jfd.github.io/wpilot/",
   "source_repo": "https://github.com/jfd/wpilot",
-  "license": "MIT (verify)",
-  "description": "WPilot - a space journey in your browser",
+  "license": "custom",
   "page_title": "WPilot - a space journey in your browser"
  },
  {
@@ -256,11 +268,11 @@
   "name": "Zedinvaders",
   "category": "shooter",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://salvatorecapolupo.github.io/zedinvaders/",
   "source_repo": "https://github.com/salvatorecapolupo/zedinvaders",
-  "license": "MIT (verify)",
-  "description": "index",
+  "license": "custom",
   "page_title": "index"
  },
  {
@@ -268,11 +280,11 @@
   "name": "BananaBread",
   "category": "shooter",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://kripken.github.io/BananaBread/",
   "source_repo": "https://github.com/kripken/BananaBread",
-  "license": "MIT (verify)",
-  "description": "BananaBread",
+  "license": "custom",
   "page_title": "BananaBread"
  },
  {
@@ -280,11 +292,11 @@
   "name": "Ancient Beast",
   "category": "strategy",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://freezingmoon.github.io/AncientBeast/",
   "source_repo": "https://github.com/FreezingMoon/AncientBeast",
-  "license": "MIT (verify)",
-  "description": "Ancient Beast v0.5-α",
+  "license": "custom",
   "page_title": "Ancient Beast v0.5-α"
  },
  {
@@ -292,11 +304,11 @@
   "name": "Command & Conquer",
   "category": "strategy",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://adityaravishankar.github.io/command-and-conquer/",
   "source_repo": "https://github.com/adityaravishankar/command-and-conquer",
-  "license": "MIT (verify)",
-  "description": "C&amp;C - HTML5 by adityaravishankar",
+  "license": "custom",
   "page_title": "C&amp;C - HTML5 by adityaravishankar"
  },
  {
@@ -304,11 +316,11 @@
   "name": "Freeciv-web",
   "category": "strategy",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://freeciv.github.io/freeciv-web/",
   "source_repo": "https://github.com/freeciv/freeciv-web",
-  "license": "MIT (verify)",
-  "description": "Freeciv-web by freeciv",
+  "license": "custom",
   "page_title": "Freeciv-web by freeciv"
  },
  {
@@ -316,11 +328,11 @@
   "name": "Hexa Battle",
   "category": "board",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://itajaja.github.io/hb/",
   "source_repo": "https://github.com/itajaja/hb",
-  "license": "MIT (verify)",
-  "description": "Hexa Battle",
+  "license": "MIT",
   "page_title": "Hexa Battle"
  },
  {
@@ -328,11 +340,11 @@
   "name": "Rapid Dominance",
   "category": "strategy",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://wenta.github.io/rapid-dominance/",
   "source_repo": "https://github.com/wenta/rapid-dominance",
-  "license": "MIT (verify)",
-  "description": "Rapid Dominance",
+  "license": "Apache-2.0",
   "page_title": "Rapid Dominance"
  },
  {
@@ -340,11 +352,11 @@
   "name": "3d.city",
   "category": "3d",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://lo-th.github.io/3d.city/index.html",
   "source_repo": "https://github.com/lo-th/3d.city",
-  "license": "MIT",
-  "description": "3D.CITY",
+  "license": "GPL",
   "page_title": "3D.CITY"
  },
  {
@@ -352,11 +364,11 @@
   "name": "Cube Engine",
   "category": "3d",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://nurgak.github.io/Cube-engine/",
   "source_repo": "https://github.com/Nurgak/Cube-engine",
-  "license": "MIT (verify)",
-  "description": "Cube Engine v1.0",
+  "license": "custom",
   "page_title": "Cube Engine v1.0"
  },
  {
@@ -364,35 +376,35 @@
   "name": "Sandboxels",
   "category": "casual",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://r74ncom.github.io/sandboxels/",
   "source_repo": "https://github.com/R74nCom/sandboxels",
-  "license": "MIT (verify)",
-  "description": "Sandboxels - Experiment with Pixels",
+  "license": "custom",
   "page_title": "Sandboxels - Experiment with Pixels"
  },
  {
-  "slug": "2048",
-  "name": "2048",
+  "slug": "a-dark-room",
+  "name": "A Dark Room",
   "category": "casual",
   "tags": [],
+  "description": "",
   "tech": "html5",
-  "embed": "https://gabrielecirulli.github.io/2048/",
-  "source_repo": "https://github.com/gabrielecirulli/2048",
-  "license": "MIT (verify)",
-  "description": "2048",
-  "page_title": "2048"
+  "embed": "https://hughsk.github.io/ludum-dare-27/",
+  "source_repo": "https://github.com/hughsk/ludum-dare-27",
+  "license": "custom",
+  "page_title": "hurry!"
  },
  {
   "slug": "blockrain-js",
   "name": "Blockrain.js",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://aerolab.github.io/blockrain.js/",
   "source_repo": "https://github.com/Aerolab/blockrain.js",
-  "license": "MIT (verify)",
-  "description": "Blockrain.js - A Tetris game in HTML5 + Javascript (with autoplay!)",
+  "license": "custom",
   "page_title": "Blockrain.js - A Tetris game in HTML5 + Javascript (with autoplay!)"
  },
  {
@@ -400,11 +412,11 @@
   "name": "Drunken Viking",
   "category": "arcade",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://cxong.github.io/DrunkenViking/",
   "source_repo": "https://github.com/cxong/DrunkenViking",
-  "license": "MIT (verify)",
-  "description": "Drunken Viking",
+  "license": "custom",
   "page_title": "Drunken Viking"
  },
  {
@@ -412,11 +424,11 @@
   "name": "Hex 2048",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://jeffhou.github.io/hex-2048/",
   "source_repo": "https://github.com/jeffhou/hex-2048",
-  "license": "MIT (verify)",
-  "description": "Hex 2048",
+  "license": "custom",
   "page_title": "Hex 2048"
  },
  {
@@ -424,11 +436,11 @@
   "name": "Infectors",
   "category": "strategy",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://satanas.github.io/infectors/",
   "source_repo": "https://github.com/satanas/infectors",
-  "license": "MIT (verify)",
-  "description": "Infectors",
+  "license": "custom",
   "page_title": "Infectors"
  },
  {
@@ -436,11 +448,11 @@
   "name": "Orbium",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://bni.github.io/orbium/",
   "source_repo": "https://github.com/bni/orbium",
-  "license": "MIT (verify)",
-  "description": "Orbium",
+  "license": "GPL",
   "page_title": "Orbium"
  },
  {
@@ -448,11 +460,11 @@
   "name": "Parity",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://abejfehr.github.io/parity/",
   "source_repo": "https://github.com/abejfehr/parity",
-  "license": "MIT (verify)",
-  "description": "Parity",
+  "license": "custom",
   "page_title": "Parity"
  },
  {
@@ -460,11 +472,11 @@
   "name": "Sliding Puzzle",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://gamedolphin.github.io/sliding_puzzle/",
   "source_repo": "https://github.com/gamedolphin/sliding_puzzle",
-  "license": "MIT (verify)",
-  "description": "Sliding Puzzle - Game Dolphin",
+  "license": "custom",
   "page_title": "Sliding Puzzle - Game Dolphin"
  },
  {
@@ -472,11 +484,11 @@
   "name": "TransCube",
   "category": "platformer",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://jeroenverfallie.github.io/ggo13-transcube/",
   "source_repo": "https://github.com/jeroenverfallie/ggo13-transcube",
-  "license": "MIT (verify)",
-  "description": "Trans&diams;cube",
+  "license": "custom",
   "page_title": "Trans&diams;cube"
  },
  {
@@ -484,11 +496,11 @@
   "name": "Matching Pairs",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://gamedolphin.github.io/matching-pairs/",
   "source_repo": "https://github.com/gamedolphin/matching-pairs",
-  "license": "MIT (verify)",
-  "description": "Matching Pairs - Game Dolphin",
+  "license": "custom",
   "page_title": "Matching Pairs - Game Dolphin"
  },
  {
@@ -496,11 +508,11 @@
   "name": "Zoko",
   "category": "puzzle",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://lulea.github.io/game-off-2012/",
   "source_repo": "https://github.com/lulea/game-off-2012",
-  "license": "MIT (verify)",
-  "description": "Zoko",
+  "license": "custom",
   "page_title": "Zoko"
  },
  {
@@ -508,11 +520,11 @@
   "name": "Particle Clicker",
   "category": "casual",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://particle-clicker.github.io/particle-clicker/",
   "source_repo": "https://github.com/particle-clicker/particle-clicker",
-  "license": "MIT (verify)",
-  "description": "Particle Clicker",
+  "license": "MIT",
   "page_title": "Particle Clicker"
  },
  {
@@ -520,11 +532,11 @@
   "name": "The House",
   "category": "casual",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://arturkot.github.io/the-house-game/",
   "source_repo": "https://github.com/arturkot/the-house-game",
-  "license": "MIT (verify)",
-  "description": "The House",
+  "license": "custom",
   "page_title": "The House"
  },
  {
@@ -532,11 +544,11 @@
   "name": "Hauberk",
   "category": "rpg",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://munificent.github.io/hauberk/",
   "source_repo": "https://github.com/munificent/hauberk",
-  "license": "MIT (verify)",
-  "description": "Hauberk",
+  "license": "custom",
   "page_title": "Hauberk"
  },
  {
@@ -544,11 +556,11 @@
   "name": "Squirts",
   "category": "arcade",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://krofdrakula.github.io/squirts/",
   "source_repo": "https://github.com/KrofDrakula/squirts",
-  "license": "MIT (verify)",
-  "description": "Squirts",
+  "license": "custom",
   "page_title": "Squirts"
  },
  {
@@ -556,11 +568,158 @@
   "name": "Turkey Cooking Simulator",
   "category": "casual",
   "tags": [],
+  "description": "",
   "tech": "html5",
   "embed": "https://fernjager.github.io/game-off-2013/",
   "source_repo": "https://github.com/fernjager/game-off-2013",
-  "license": "MIT (verify)",
-  "description": "Turkey Cooking Simulator",
+  "license": "GPL",
   "page_title": "Turkey Cooking Simulator"
+ },
+ {
+  "slug": "pacman-html5",
+  "name": "Pac-Man (HTML5)",
+  "category": "arcade",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://passer-by.com/pacman/",
+  "source_repo": "https://github.com/mumuy/pacman",
+  "license": "MIT",
+  "page_title": "吃豆人 (HTML5)"
+ },
+ {
+  "slug": "star-battle",
+  "name": "Star Battle",
+  "category": "shooter",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://4ark.me/star-battle/",
+  "source_repo": "https://github.com/gd4Ark/star-battle",
+  "license": "MIT",
+  "page_title": "Star Battle"
+ },
+ {
+  "slug": "classic-pool-game",
+  "name": "Classic Pool Game",
+  "category": "sports",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://henshmi.github.io/Classic-Pool-Game/",
+  "source_repo": "https://github.com/henshmi/Classic-Pool-Game",
+  "license": "custom",
+  "page_title": "Classic Pool Game"
+ },
+ {
+  "slug": "lode-runner",
+  "name": "Lode Runner: Total Recall",
+  "category": "arcade",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://simonhung.github.io/LodeRunner_TotalRecall/",
+  "source_repo": "https://github.com/SimonHung/LodeRunner_TotalRecall",
+  "license": "custom",
+  "page_title": "Lode Runner - Total Recall"
+ },
+ {
+  "slug": "slotjs",
+  "name": "SlotJS",
+  "category": "casual",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://danziger.github.io/slotjs/",
+  "source_repo": "https://github.com/Danziger/slotjs",
+  "license": "MIT",
+  "page_title": "SlotJS"
+ },
+ {
+  "slug": "letreco",
+  "name": "Letreco",
+  "category": "word",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://www.gabtoschi.com/letreco/",
+  "source_repo": "https://github.com/gabtoschi/letreco",
+  "license": "custom",
+  "page_title": "Letreco"
+ },
+ {
+  "slug": "snake-game-rc",
+  "name": "Snake Game",
+  "category": "arcade",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://ramazancetinkaya.github.io/snake-game/",
+  "source_repo": "https://github.com/ramazancetinkaya/snake-game",
+  "license": "MIT",
+  "page_title": "Snake Game"
+ },
+ {
+  "slug": "alchemy",
+  "name": "Computer Alchemy",
+  "category": "puzzle",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://ozh.github.io/alchemy/",
+  "source_repo": "https://github.com/ozh/alchemy",
+  "license": "custom",
+  "page_title": "Computer Alchemy"
+ },
+ {
+  "slug": "antipacman",
+  "name": "AntiPacMan",
+  "category": "arcade",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://vmikhav.github.io/AntiPacMan/",
+  "source_repo": "https://github.com/vmikhav/AntiPacMan",
+  "license": "MIT",
+  "page_title": "AntiPacMan"
+ },
+ {
+  "slug": "escape-space",
+  "name": "Escape Space",
+  "category": "shooter",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://calinou.github.io/escape-space/",
+  "source_repo": "https://github.com/Calinou/escape-space",
+  "license": "custom",
+  "page_title": "Escape Space"
+ },
+ {
+  "slug": "matchimals",
+  "name": "Matchimals.fun",
+  "category": "casual",
+  "tags": [],
+  "description": "",
+  "tech": "html5",
+  "embed": "https://matchimals.fun/",
+  "source_repo": "https://github.com/chrisheninger/matchimals.fun",
+  "license": "MIT",
+  "page_title": "Matchimals"
+ },
+ {
+  "slug": "hexgl",
+  "name": "HexGL",
+  "category": "racing",
+  "tags": [
+   "3d",
+   "webgl"
+  ],
+  "description": "Futuristic WebGL racing game (Three.js).",
+  "tech": "html5",
+  "embed": "https://hexgl.bkcore.com/",
+  "source_repo": "https://github.com/BKcore/HexGL",
+  "license": "MIT",
+  "page_title": "HexGL, the HTML5 futuristic racing game."
  }
 ]
