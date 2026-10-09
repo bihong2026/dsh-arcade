@@ -6,7 +6,7 @@ GameHub Arcade 由三部分组成，全部围绕一个 JSON 目录运转：
 
 ```
 scripts/ingest.py ──生成──▶ site/data/games.json ──读取──▶ site/（静态网站）
-                                        └──读取──▶ plugin/（DSH 插件，iframe 嵌网站）
+                                        └──读取──▶ （DSH 插件，iframe 嵌网站）
 ```
 
 ## 1. 目录管线 (`scripts/ingest.py`)
@@ -26,7 +26,7 @@ scripts/ingest.py ──生成──▶ site/data/games.json ──读取──�
 - 主题用 CSS 变量（`--gb-*`），`data-theme="light"` 切换；`body[data-compact]` 是插件侧边栏的紧凑布局模式
 - 深链：`#play=<slug>` 直达某游戏（插件/分享场景用）
 
-## 3. 插件 (`plugin/` → 仓库根 package.json)
+## 3. 插件 (repo 根 → 仓库根 package.json)
 
 DSH web profile 插件，标准双入口结构：
 
@@ -43,4 +43,4 @@ DSH web profile 插件，标准双入口结构：
 | 加一个 registry 源 | `ingest.py` 的 `REGISTRY_SOURCES` |
 | 换/加分类 | `ingest.py` 的 `categories` + 站点自动感知 |
 | 自定义站点皮肤 | `site/assets/style.css` 的 CSS 变量 |
-| 插件指向自己的站点 | `plugin/src/client.js` 的 `GAMEHUB_URL` |
+| 插件指向自己的站点 | `src/client.js` 的 `GAMEHUB_URL` |
