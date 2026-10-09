@@ -1,17 +1,5 @@
 [
  {
-  "slug": "green-mahjong",
-  "name": "Green Mahjong",
-  "category": "board",
-  "tags": [],
-  "description": "Solitaire mahjong game with several themes and layouts. For android/iphone/ubuntu/firefoxos",
-  "tech": "html5",
-  "embed": "https://danbeck.github.io/green-mahjong/",
-  "source_repo": "https://github.com/danbeck/green-mahjong",
-  "license": "custom",
-  "page_title": "Daniel Beck – Physalis, Green Mahjong, Ubuntu ..."
- },
- {
   "slug": "alge-s-escapade",
   "name": "Alge's Escapade",
   "category": "platformer",
@@ -717,7 +705,7 @@
   ],
   "description": "Futuristic WebGL racing game (Three.js).",
   "tech": "html5",
-  "embed": "https://hexgl.bkcore.com/",
+  "embed": "https://hexgl.bkcore.com/play",
   "source_repo": "https://github.com/BKcore/HexGL",
   "license": "MIT",
   "page_title": "HexGL, the HTML5 futuristic racing game."

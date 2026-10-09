@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-09T16:54:43.785331Z",
+ "generated_at": "2026-10-09T17:00:22.093381Z",
  "schema": {
   "id": "stable unique id (source:slug)",
   "slug": "url-safe identifier",
@@ -544,23 +544,6 @@
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Simple Chess — Phaser 3 (PvC + Overlays)",
-   "drop": false
-  },
-  {
-   "id": "curated:green-mahjong",
-   "slug": "green-mahjong",
-   "name": "Green Mahjong",
-   "category": "board",
-   "tags": [],
-   "description": "Solitaire mahjong game with several themes and layouts. For android/iphone/ubuntu/firefoxos",
-   "tech": "html5",
-   "embed": "https://danbeck.github.io/green-mahjong/",
-   "source_repo": "https://github.com/danbeck/green-mahjong",
-   "license": "custom",
-   "strict_title": false,
-   "embed_ok": true,
-   "title_ok": true,
-   "page_title": "",
    "drop": false
   },
   {
@@ -1312,7 +1295,7 @@
    ],
    "description": "Futuristic WebGL racing game (Three.js).",
    "tech": "html5",
-   "embed": "https://hexgl.bkcore.com/",
+   "embed": "https://hexgl.bkcore.com/play",
    "source_repo": "https://github.com/BKcore/HexGL",
    "license": "MIT",
    "strict_title": false,
