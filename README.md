@@ -140,7 +140,7 @@ python3 -m http.server 8080 --directory site   # 本地预览
 
 ## 📄 License
 
-本仓库代码 MIT。收录的第三方游戏各自遵循其上游许可证，详见 `games.json` 中的 `license` 字段。
+本仓库代码 MIT。收录的第三方游戏各自遵循其上游许可证，详见 `games.json` 中的 `license` 字段；这些游戏的版权归其各自作者。
 
 <p align="center">
 <em>如果觉得有用，点个 ⭐ 让更多 DSH 用户发现它！</em>
