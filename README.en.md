@@ -17,9 +17,9 @@ The repo also ships a **standalone game site** (deployable to GitHub Pages / Clo
 ## Install
 
 ```bash
-dsh plugin --profile web add github:gamehub-dev/dsh-arcade#v0.1.0
+dsh plugin --profile web add github:bihong2026/dsh-arcade#v0.1.0
 # or track main
-dsh plugin --profile web add github:gamehub-dev/dsh-arcade#main
+dsh plugin --profile web add github:bihong2026/dsh-arcade#main
 ```
 
 Restart `dsh web` and refresh — the **🎮 Games** tab appears in the sidebar.

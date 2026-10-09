@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/gamehub-dev/dsh-arcade/stargazers"><img src="https://img.shields.io/github/stars/gamehub-dev/dsh-arcade?style=flat-square" alt="Stars"></a>
-<a href="https://github.com/gamehub-dev/dsh-arcade/network/members"><img src="https://img.shields.io/github/forks/gamehub-dev/dsh-arcade?style=flat-square" alt="Forks"></a>
+<a href="https://github.com/bihong2026/dsh-arcade/stargazers"><img src="https://img.shields.io/github/stars/bihong2026/dsh-arcade?style=flat-square" alt="Stars"></a>
+<a href="https://github.com/bihong2026/dsh-arcade/network/members"><img src="https://img.shields.io/github/forks/bihong2026/dsh-arcade?style=flat-square" alt="Forks"></a>
 <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
 <img src="https://img.shields.io/badge/platform-dsh--web-blue?style=flat-square" alt="DSH web">
 <img src="https://img.shields.io/badge/games-26%2B%20%E2%86%92%201000-orange?style=flat-square" alt="Games count">
@@ -38,10 +38,10 @@
 
 ```bash
 # 推荐固定版本
-dsh plugin --profile web add github:gamehub-dev/dsh-arcade#v0.1.0
+dsh plugin --profile web add github:bihong2026/dsh-arcade#v0.1.0
 
 # 或跟踪 main 分支
-dsh plugin --profile web add github:gamehub-dev/dsh-arcade#main
+dsh plugin --profile web add github:bihong2026/dsh-arcade#main
 ```
 
 重启 `dsh web` 并刷新页面，侧边栏即出现 **🎮 游戏** 标签。
