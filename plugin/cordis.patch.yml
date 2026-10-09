@@ -1,0 +1,3 @@
+# GameHub Arcade plugin bundle for DeepSeek Harness (cordis patch).
+# Mounts the client script into the DSH web client, same mechanism as
+# reference community plugins (dsh-plugin-sidebar etc.).

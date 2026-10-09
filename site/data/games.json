@@ -1,0 +1,2353 @@
+{
+ "version": 2,
+ "generated_at": "2026-10-09T15:20:49.854016Z",
+ "schema": {
+  "id": "stable unique id (source:slug)",
+  "slug": "url-safe identifier",
+  "category": "puzzle|arcade|shooter|racing|sports|platformer|casual|board|word|3d",
+  "tags": "free-form strings for search",
+  "embed": "iframe-embeddable URL of the playable game",
+  "embed_ok": "verified by ingest (no frame-blocking headers)",
+  "source_repo": "attribution / upstream",
+  "license": "upstream license (MIT etc.)"
+ },
+ "categories": [
+  {
+   "id": "puzzle",
+   "label": "益智",
+   "emoji": "🧩"
+  },
+  {
+   "id": "arcade",
+   "label": "街机",
+   "emoji": "🕹️"
+  },
+  {
+   "id": "shooter",
+   "label": "射击",
+   "emoji": "🎯"
+  },
+  {
+   "id": "racing",
+   "label": "竞速",
+   "emoji": "🏎️"
+  },
+  {
+   "id": "sports",
+   "label": "体育",
+   "emoji": "⚽"
+  },
+  {
+   "id": "platformer",
+   "label": "平台跳跃",
+   "emoji": "🏃"
+  },
+  {
+   "id": "casual",
+   "label": "休闲",
+   "emoji": "🎈"
+  },
+  {
+   "id": "board",
+   "label": "棋牌",
+   "emoji": "♟️"
+  },
+  {
+   "id": "word",
+   "label": "文字",
+   "emoji": "📝"
+  },
+  {
+   "id": "3d",
+   "label": "3D",
+   "emoji": "🌐"
+  }
+ ],
+ "games": [
+  {
+   "id": "sausi7:cosmic-cleaner",
+   "slug": "cosmic-cleaner",
+   "name": "Cosmic Cleaner",
+   "category": "3d",
+   "tags": [
+    "3d",
+    "space"
+   ],
+   "description": "3D space-junk vacuum-up game.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/3d/cosmic-cleaner/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:orbital-outpost",
+   "slug": "orbital-outpost",
+   "name": "Orbital Outpost",
+   "category": "3d",
+   "tags": [
+    "3d",
+    "space",
+    "defense"
+   ],
+   "description": "3D space-station defense.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/3d/orbital-outpost/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:planet-visitor",
+   "slug": "planet-visitor",
+   "name": "Planet Visitor",
+   "category": "3d",
+   "tags": [
+    "3d",
+    "space",
+    "explore"
+   ],
+   "description": "Land on alien planets in 3D.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/3d/planet-visitor/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:planet-war",
+   "slug": "planet-war",
+   "name": "Planet War",
+   "category": "3d",
+   "tags": [
+    "3d",
+    "space",
+    "defense"
+   ],
+   "description": "Defend your planet from cosmic invaders.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/3d/planet-war/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:stack-tower",
+   "slug": "stack-tower",
+   "name": "Stack Tower",
+   "category": "3d",
+   "tags": [
+    "3d",
+    "stack",
+    "timing"
+   ],
+   "description": "Stack 3D blocks for the highest tower.",
+   "tech": "three",
+   "embed": "https://sausi-7.github.io/games/games/3d/stack-tower/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:abhita",
+   "slug": "abhita",
+   "name": "Abhita",
+   "category": "arcade",
+   "tags": [
+    "reflex",
+    "dodge"
+   ],
+   "description": "Reflex-driven dodge mini-game.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/abhita/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:bomb-blast",
+   "slug": "bomb-blast",
+   "name": "Bomb Blast",
+   "category": "arcade",
+   "tags": [
+    "explosions",
+    "timing"
+   ],
+   "description": "Time the blast to chain destruction.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/bomb-blast/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:boom-dots",
+   "slug": "boom-dots",
+   "name": "Boom Dots",
+   "category": "arcade",
+   "tags": [
+    "chain",
+    "reflex"
+   ],
+   "description": "Tap to detonate dots and clear the screen.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/boom-dots/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:breakoid",
+   "slug": "breakoid",
+   "name": "Breakoid",
+   "category": "arcade",
+   "tags": [
+    "brick",
+    "paddle",
+    "classic"
+   ],
+   "description": "Breakout-style brick smashing.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/breakoid/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:bug-smasher",
+   "slug": "bug-smasher",
+   "name": "Bug Smasher",
+   "category": "arcade",
+   "tags": [
+    "whack",
+    "reflex"
+   ],
+   "description": "Squash bugs before they reach the goal.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/bug-smasher/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:catch-me-if-you-can",
+   "slug": "catch-me-if-you-can",
+   "name": "Catch Me If You Can",
+   "category": "arcade",
+   "tags": [
+    "chase",
+    "stealth"
+   ],
+   "description": "Outrun the chasers in a wide arena.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/catch-me-if-you-can/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:circle-path",
+   "slug": "circle-path",
+   "name": "Circle Path",
+   "category": "arcade",
+   "tags": [
+    "timing",
+    "ring"
+   ],
+   "description": "Trace the rotating circle without slipping.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/circle-path/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:collector",
+   "slug": "collector",
+   "name": "Collector",
+   "category": "arcade",
+   "tags": [
+    "coins",
+    "time-attack"
+   ],
+   "description": "Sweep up coins before time runs out.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/collector/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:color-dash",
+   "slug": "color-dash",
+   "name": "Color Dash",
+   "category": "arcade",
+   "tags": [
+    "color-match",
+    "reflex"
+   ],
+   "description": "Match the player's color to pass each gate.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/color-dash/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:crossy-road",
+   "slug": "crossy-road",
+   "name": "Crossy Road",
+   "category": "arcade",
+   "tags": [
+    "frogger",
+    "endless"
+   ],
+   "description": "Hop across roads, rivers, and rails.",
+   "tech": "three",
+   "embed": "https://sausi-7.github.io/games/games/arcade/crossy-road/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:crowd-control",
+   "slug": "crowd-control",
+   "name": "Crowd Control",
+   "category": "arcade",
+   "tags": [
+    "growing",
+    "io-style"
+   ],
+   "description": "Steer your growing crowd through obstacles.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/crowd-control/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:curve-snake",
+   "slug": "curve-snake",
+   "name": "Curve Snake",
+   "category": "arcade",
+   "tags": [
+    "snake",
+    "trail"
+   ],
+   "description": "Snake-style game with smooth curve trails.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/arcade/curve-snake/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:demon",
+   "slug": "demon",
+   "name": "Demon",
+   "category": "arcade",
+   "tags": [
+    "survival",
+    "dark"
+   ],
+   "description": "Survive a horde of demonic enemies.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/demon/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:dodge-enemy",
+   "slug": "dodge-enemy",
+   "name": "Dodge Enemy",
+   "category": "arcade",
+   "tags": [
+    "dodge",
+    "reflex"
+   ],
+   "description": "Slip past charging enemies.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/dodge-enemy/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:dodge-master",
+   "slug": "dodge-master",
+   "name": "Dodge Master",
+   "category": "arcade",
+   "tags": [
+    "endless",
+    "dodge"
+   ],
+   "description": "Endless dodging at increasing speed.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/dodge-master/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:dream-weaver",
+   "slug": "dream-weaver",
+   "name": "Dream Weaver",
+   "category": "arcade",
+   "tags": [
+    "chill",
+    "trail"
+   ],
+   "description": "Weave glowing trails through a dreamscape.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/dream-weaver/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:ellars",
+   "slug": "ellars",
+   "name": "Ellars",
+   "category": "arcade",
+   "tags": [
+    "abstract",
+    "dodge"
+   ],
+   "description": "Surreal arcade dodger.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/ellars/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:endless-mafia",
+   "slug": "endless-mafia",
+   "name": "Endless Mafia",
+   "category": "arcade",
+   "tags": [
+    "brawler",
+    "endless"
+   ],
+   "description": "Brawl through endless waves of mafia thugs.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/endless-mafia/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:flappy",
+   "slug": "flappy",
+   "name": "Flappy",
+   "category": "arcade",
+   "tags": [
+    "tap",
+    "one-button",
+    "classic"
+   ],
+   "description": "Tap to flap. Don't hit the pipes.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/flappy/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:fly-monkey",
+   "slug": "fly-monkey",
+   "name": "Fly Monkey",
+   "category": "arcade",
+   "tags": [
+    "swing",
+    "jungle"
+   ],
+   "description": "Swing the monkey through the canopy.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/fly-monkey/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:glass-step",
+   "slug": "glass-step",
+   "name": "Glass Step",
+   "category": "arcade",
+   "tags": [
+    "squid-game",
+    "pick"
+   ],
+   "description": "Pick the safe glass tile. Don't fall.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/glass-step/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:hungry-player",
+   "slug": "hungry-player",
+   "name": "Hungry Player",
+   "category": "arcade",
+   "tags": [
+    "eat",
+    "grow"
+   ],
+   "description": "Gobble food, dodge hazards, grow.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/hungry-player/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:jump-dot",
+   "slug": "jump-dot",
+   "name": "Jump Dot",
+   "category": "arcade",
+   "tags": [
+    "one-button",
+    "timing"
+   ],
+   "description": "Tap to jump the dot over rotating hazards.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/jump-dot/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:kaiju-krush",
+   "slug": "kaiju-krush",
+   "name": "Kaiju Krush",
+   "category": "arcade",
+   "tags": [
+    "destruction",
+    "kaiju"
+   ],
+   "description": "Smash through the city as a giant kaiju.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/kaiju-krush/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:luma-bounce",
+   "slug": "luma-bounce",
+   "name": "LumaBounce",
+   "category": "arcade",
+   "tags": [
+    "bounce",
+    "reflex"
+   ],
+   "description": "Bouncy reflex arcade game.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/luma-bounce/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:pacman",
+   "slug": "pacman",
+   "name": "Pac-Man",
+   "category": "arcade",
+   "tags": [
+    "maze",
+    "classic"
+   ],
+   "description": "Eat dots. Avoid ghosts.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/pacman/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:pirates",
+   "slug": "pirates",
+   "name": "Pirates",
+   "category": "arcade",
+   "tags": [
+    "pirates",
+    "ships"
+   ],
+   "description": "Sail and battle on the high seas.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/pirates/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:red-light-green-light",
+   "slug": "red-light-green-light",
+   "name": "Red Light, Green Light",
+   "category": "arcade",
+   "tags": [
+    "squid-game",
+    "reflex"
+   ],
+   "description": "Move on green. Freeze on red.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/red-light-green-light/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:road-cross",
+   "slug": "road-cross",
+   "name": "Road Cross",
+   "category": "arcade",
+   "tags": [
+    "frogger",
+    "timing"
+   ],
+   "description": "Cross busy roads safely.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/road-cross/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:shape-collector",
+   "slug": "shape-collector",
+   "name": "Shape Collector",
+   "category": "arcade",
+   "tags": [
+    "shapes",
+    "match"
+   ],
+   "description": "Catch only the matching shapes.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/shape-collector/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:sky-high",
+   "slug": "sky-high",
+   "name": "Sky High",
+   "category": "arcade",
+   "tags": [
+    "climb",
+    "endless"
+   ],
+   "description": "Climb endlessly into the sky.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/sky-high/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:space-waves",
+   "slug": "space-waves",
+   "name": "Space Waves",
+   "category": "arcade",
+   "tags": [
+    "space",
+    "wave"
+   ],
+   "description": "Surf waves of space debris.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/space-waves/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:stick-game",
+   "slug": "stick-game",
+   "name": "Stick Game",
+   "category": "arcade",
+   "tags": [
+    "stick",
+    "draw"
+   ],
+   "description": "Draw sticks to bridge gaps.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/stick-game/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:stick-toss",
+   "slug": "stick-toss",
+   "name": "Stick Toss",
+   "category": "arcade",
+   "tags": [
+    "aim",
+    "spin"
+   ],
+   "description": "Toss sticks at the spinning target.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/stick-toss/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:swipe-assassin",
+   "slug": "swipe-assassin",
+   "name": "Swipe Assassin",
+   "category": "arcade",
+   "tags": [
+    "swipe",
+    "slash"
+   ],
+   "description": "Swipe to slice incoming threats.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/arcade/swipe-assassin/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:tap-target",
+   "slug": "tap-target",
+   "name": "Tap Target",
+   "category": "arcade",
+   "tags": [
+    "tap",
+    "reflex"
+   ],
+   "description": "Tap targets before they vanish.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/tap-target/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:whack-a-bug",
+   "slug": "whack-a-bug",
+   "name": "Whack-a-Bug",
+   "category": "arcade",
+   "tags": [
+    "whack",
+    "reflex"
+   ],
+   "description": "Bonk the bugs as they pop up.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/arcade/whack-a-bug/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:tm-pacman",
+   "slug": "tm-pacman",
+   "name": "吃豆人",
+   "category": "arcade",
+   "tags": [],
+   "description": "经典吃豆人，迷宫里吃豆躲鬼",
+   "tech": "html5",
+   "embed": "https://tommalbran.github.io/games/pacman/",
+   "source_repo": "https://github.com/tommalbran/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:tm-snake",
+   "slug": "tm-snake",
+   "name": "贪吃蛇经典版",
+   "category": "arcade",
+   "tags": [],
+   "description": "经典贪吃蛇，吃食物变长",
+   "tech": "html5",
+   "embed": "https://tommalbran.github.io/games/snake/",
+   "source_repo": "https://github.com/tommalbran/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:carrom",
+   "slug": "carrom",
+   "name": "Carrom",
+   "category": "board",
+   "tags": [
+    "table",
+    "aim",
+    "classic"
+   ],
+   "description": "Pocket the carrom pieces with skill.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/board/carrom/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:chess",
+   "slug": "chess",
+   "name": "Chess",
+   "category": "board",
+   "tags": [
+    "strategy",
+    "classic"
+   ],
+   "description": "Classic chess vs the computer.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/board/chess/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:ludo",
+   "slug": "ludo",
+   "name": "Ludo",
+   "category": "board",
+   "tags": [
+    "dice",
+    "classic",
+    "family"
+   ],
+   "description": "Classic Ludo — you vs 3 AI opponents.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/board/ludo/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:rock-paper-scissors",
+   "slug": "rock-paper-scissors",
+   "name": "Rock Paper Scissors",
+   "category": "board",
+   "tags": [
+    "classic",
+    "quick"
+   ],
+   "description": "The timeless hand game vs the AI.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/board/rock-paper-scissors/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:snake-and-ladder",
+   "slug": "snake-and-ladder",
+   "name": "Snake & Ladder",
+   "category": "board",
+   "tags": [
+    "dice",
+    "family",
+    "classic"
+   ],
+   "description": "Roll the dice. Climb. Slide. Win.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/board/snake-and-ladder/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:tic-tac-toe",
+   "slug": "tic-tac-toe",
+   "name": "Tic-Tac-Toe",
+   "category": "board",
+   "tags": [
+    "classic",
+    "quick"
+   ],
+   "description": "X's and O's. Three in a row wins.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/board/tic-tac-toe/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:connect4",
+   "slug": "connect4",
+   "name": "四子棋 (vs AI)",
+   "category": "board",
+   "tags": [],
+   "description": "和 AI 对战的四子棋",
+   "tech": "html5",
+   "embed": "https://kenrick95.github.io/c4/demo/",
+   "source_repo": "https://github.com/kenrick95/c4",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:vg-go",
+   "slug": "vg-go",
+   "name": "围棋 (9/13/19路)",
+   "category": "board",
+   "tags": [],
+   "description": "经典围棋对弈",
+   "tech": "html5",
+   "embed": "https://vader941.github.io/minigame/games/go.html",
+   "source_repo": "https://github.com/Vader941/minigame",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:vg-battleship",
+   "slug": "vg-battleship",
+   "name": "海战棋",
+   "category": "board",
+   "tags": [],
+   "description": "经典战舰海战棋",
+   "tech": "html5",
+   "embed": "https://vader941.github.io/minigame/games/battleship.html",
+   "source_repo": "https://github.com/Vader941/minigame",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:tm-spider",
+   "slug": "tm-spider",
+   "name": "蜘蛛纸牌",
+   "category": "board",
+   "tags": [],
+   "description": "经典接龙类纸牌游戏",
+   "tech": "html5",
+   "embed": "https://tommalbran.github.io/games/spider/",
+   "source_repo": "https://github.com/tommalbran/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:bubble-pop",
+   "slug": "bubble-pop",
+   "name": "Bubble Pop",
+   "category": "casual",
+   "tags": [
+    "match",
+    "bubbles",
+    "relaxing"
+   ],
+   "description": "Pop matching bubbles to score.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/casual/bubble-pop/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:bubble-shooter",
+   "slug": "bubble-shooter",
+   "name": "Bubble Shooter",
+   "category": "casual",
+   "tags": [
+    "match-3",
+    "shooter",
+    "classic"
+   ],
+   "description": "Shoot bubbles into matching color clusters.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/casual/bubble-shooter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:buttermilk",
+   "slug": "buttermilk",
+   "name": "Buttermilk",
+   "category": "casual",
+   "tags": [
+    "idle",
+    "pour",
+    "cute"
+   ],
+   "description": "Cute pour-and-mix idle game.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/casual/buttermilk/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:candy-crush",
+   "slug": "candy-crush",
+   "name": "Candy Crush",
+   "category": "casual",
+   "tags": [
+    "match-3",
+    "candy",
+    "classic"
+   ],
+   "description": "Match-3 candy puzzle.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/casual/candy-crush/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:candy-crusher",
+   "slug": "candy-crusher",
+   "name": "Candy Crusher",
+   "category": "casual",
+   "tags": [
+    "match",
+    "crush"
+   ],
+   "description": "Smash candy patterns for points.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/casual/candy-crusher/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:cooking",
+   "slug": "cooking",
+   "name": "Cooking",
+   "category": "casual",
+   "tags": [
+    "timer",
+    "kitchen"
+   ],
+   "description": "Plate orders before the timer hits zero.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/casual/cooking/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:fruit-basket",
+   "slug": "fruit-basket",
+   "name": "Fruit Basket",
+   "category": "casual",
+   "tags": [
+    "catch",
+    "fruits",
+    "cute"
+   ],
+   "description": "Catch falling fruits in your basket.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/casual/fruit-basket/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:fruit-cosmics",
+   "slug": "fruit-cosmics",
+   "name": "Fruit Cosmics",
+   "category": "casual",
+   "tags": [
+    "fruits",
+    "slash"
+   ],
+   "description": "Cosmic-themed fruit smasher.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/casual/fruit-cosmics/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:fruit-merge",
+   "slug": "fruit-merge",
+   "name": "Fruit Merge",
+   "category": "casual",
+   "tags": [
+    "merge",
+    "suika",
+    "drop"
+   ],
+   "description": "Drop fruits — merge same kinds to evolve.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/casual/fruit-merge/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:antigravity",
+   "slug": "antigravity",
+   "name": "Anti-Gravity",
+   "category": "platformer",
+   "tags": [
+    "physics",
+    "gravity"
+   ],
+   "description": "Flip gravity to navigate hazards.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/antigravity/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:cool-platformer",
+   "slug": "cool-platformer",
+   "name": "Cool Platformer",
+   "category": "platformer",
+   "tags": [
+    "jump",
+    "run",
+    "platform"
+   ],
+   "description": "Run, jump, and dash through hazards.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/cool-platformer/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:devil-king",
+   "slug": "devil-king",
+   "name": "Devil King",
+   "category": "platformer",
+   "tags": [
+    "challenge",
+    "jump"
+   ],
+   "description": "Hop hazards in a devilish trial run.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/devil-king/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:doodle-jump",
+   "slug": "doodle-jump",
+   "name": "Doodle Jump",
+   "category": "platformer",
+   "tags": [
+    "vertical",
+    "jump",
+    "classic"
+   ],
+   "description": "Jump from platform to platform — go higher.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/doodle-jump/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:flip-jump",
+   "slug": "flip-jump",
+   "name": "Flip Jump",
+   "category": "platformer",
+   "tags": [
+    "gravity",
+    "flip"
+   ],
+   "description": "Flip the world to land safely.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/flip-jump/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:level-devil",
+   "slug": "level-devil",
+   "name": "Level Devil",
+   "category": "platformer",
+   "tags": [
+    "trick",
+    "platformer"
+   ],
+   "description": "Trickster platformer that hates you.",
+   "tech": "three",
+   "embed": "https://sausi-7.github.io/games/games/platformer/level-devil/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:parkour",
+   "slug": "parkour",
+   "name": "Parkour",
+   "category": "platformer",
+   "tags": [
+    "parkour",
+    "run"
+   ],
+   "description": "Wall-run, slide, and vault forward.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/parkour/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:that-level-again-1",
+   "slug": "that-level-again-1",
+   "name": "That Level Again — 1",
+   "category": "platformer",
+   "tags": [
+    "trick",
+    "platformer"
+   ],
+   "description": "Trick-platformer level 1.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/that-level-again-1/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:that-level-again-2",
+   "slug": "that-level-again-2",
+   "name": "That Level Again — 2",
+   "category": "platformer",
+   "tags": [
+    "trick",
+    "platformer"
+   ],
+   "description": "Trick-platformer level 2.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/that-level-again-2/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:that-level-again-3",
+   "slug": "that-level-again-3",
+   "name": "That Level Again — 3",
+   "category": "platformer",
+   "tags": [
+    "trick",
+    "platformer"
+   ],
+   "description": "Trick-platformer level 3.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/that-level-again-3/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:that-level-again-4",
+   "slug": "that-level-again-4",
+   "name": "That Level Again — 4",
+   "category": "platformer",
+   "tags": [
+    "trick",
+    "platformer"
+   ],
+   "description": "Trick-platformer level 4.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/that-level-again-4/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:that-level-again-5",
+   "slug": "that-level-again-5",
+   "name": "That Level Again — 5",
+   "category": "platformer",
+   "tags": [
+    "trick",
+    "platformer"
+   ],
+   "description": "Trick-platformer level 5.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/platformer/that-level-again-5/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:2048",
+   "slug": "2048",
+   "name": "2048",
+   "category": "puzzle",
+   "tags": [
+    "merge",
+    "numbers",
+    "classic"
+   ],
+   "description": "Slide tiles. Merge matching numbers. Reach 2048.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/2048/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:2048-og",
+   "slug": "2048-og",
+   "name": "2048 (原版)",
+   "category": "puzzle",
+   "tags": [],
+   "description": "原版开源 2048，滑块合并抵达 2048",
+   "tech": "html5",
+   "embed": "https://gabrielecirulli.github.io/2048/",
+   "source_repo": "https://github.com/gabrielecirulli/2048",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:6oct",
+   "slug": "6oct",
+   "name": "6 Octagons",
+   "category": "puzzle",
+   "tags": [
+    "tiles",
+    "minimal"
+   ],
+   "description": "Octagon-tile sliding puzzle.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/6oct/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:cargo-stack",
+   "slug": "cargo-stack",
+   "name": "Cargo Stack",
+   "category": "puzzle",
+   "tags": [
+    "stacking",
+    "logistics"
+   ],
+   "description": "Pack cargo crates without overflow.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/cargo-stack/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:circuit-bulb",
+   "slug": "circuit-bulb",
+   "name": "Circuit Bulb",
+   "category": "puzzle",
+   "tags": [
+    "logic",
+    "wires"
+   ],
+   "description": "Wire circuits to light the bulb.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/circuit-bulb/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:connected",
+   "slug": "connected",
+   "name": "Connected",
+   "category": "puzzle",
+   "tags": [
+    "graph",
+    "logic"
+   ],
+   "description": "Link nodes without crossing lines.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/connected/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:four-dots",
+   "slug": "four-dots",
+   "name": "Four Dots",
+   "category": "puzzle",
+   "tags": [
+    "pattern",
+    "tap"
+   ],
+   "description": "Tap dots in the right pattern.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/four-dots/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:hex-puzzle",
+   "slug": "hex-puzzle",
+   "name": "Hex Puzzle",
+   "category": "puzzle",
+   "tags": [
+    "hex",
+    "blocks"
+   ],
+   "description": "Place hex blocks to clear the board.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/hex-puzzle/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:hextris",
+   "slug": "hextris",
+   "name": "Hextris 六边形消除",
+   "category": "puzzle",
+   "tags": [],
+   "description": "快节奏六边形旋转消除",
+   "tech": "html5",
+   "embed": "https://hextris.github.io/hextris/",
+   "source_repo": "https://github.com/Hextris/hextris",
+   "license": "GPL-3.0",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:laser-bounce",
+   "slug": "laser-bounce",
+   "name": "Laser Bounce",
+   "category": "puzzle",
+   "tags": [
+    "lasers",
+    "reflect",
+    "logic"
+   ],
+   "description": "Reflect lasers to hit all targets.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/laser-bounce/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:line-trap",
+   "slug": "line-trap",
+   "name": "Line Trap",
+   "category": "puzzle",
+   "tags": [
+    "draw",
+    "minimal"
+   ],
+   "description": "Trap the dot inside your line.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/line-trap/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:link",
+   "slug": "link",
+   "name": "Link",
+   "category": "puzzle",
+   "tags": [
+    "match",
+    "mahjong"
+   ],
+   "description": "Link matching tiles by shortest path.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/link/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:memory",
+   "slug": "memory",
+   "name": "Memory",
+   "category": "puzzle",
+   "tags": [
+    "memory",
+    "cards",
+    "classic"
+   ],
+   "description": "Flip cards. Find pairs.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/memory/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:memory-cards",
+   "slug": "memory-cards",
+   "name": "Memory Cards",
+   "category": "puzzle",
+   "tags": [
+    "memory",
+    "cards"
+   ],
+   "description": "Card-matching memory test.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/memory-cards/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:number-merge",
+   "slug": "number-merge",
+   "name": "Number Merge",
+   "category": "puzzle",
+   "tags": [
+    "merge",
+    "numbers"
+   ],
+   "description": "Merge same numbers, climb the score.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/number-merge/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:pairing",
+   "slug": "pairing",
+   "name": "Pairing",
+   "category": "puzzle",
+   "tags": [
+    "match",
+    "quick"
+   ],
+   "description": "Pair up matching items quickly.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/pairing/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:perfect-square",
+   "slug": "perfect-square",
+   "name": "Perfect Square",
+   "category": "puzzle",
+   "tags": [
+    "timing",
+    "precision"
+   ],
+   "description": "Tap when the square aligns perfectly.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/perfect-square/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:screw-master",
+   "slug": "screw-master",
+   "name": "Screw Master",
+   "category": "puzzle",
+   "tags": [
+    "sort",
+    "mechanical"
+   ],
+   "description": "Unscrew and sort the metal pieces.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/screw-master/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:shape-fitter",
+   "slug": "shape-fitter",
+   "name": "Shape Fitter",
+   "category": "puzzle",
+   "tags": [
+    "shapes",
+    "kids"
+   ],
+   "description": "Fit shapes into the right slots.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/shape-fitter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:signal-circuit",
+   "slug": "signal-circuit",
+   "name": "Signal Circuit",
+   "category": "puzzle",
+   "tags": [
+    "logic",
+    "circuit"
+   ],
+   "description": "Route signals through circuit gates.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/signal-circuit/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:slide-puzzle",
+   "slug": "slide-puzzle",
+   "name": "Slide Puzzle",
+   "category": "puzzle",
+   "tags": [
+    "sliding",
+    "classic"
+   ],
+   "description": "Reassemble the image by sliding tiles.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/slide-puzzle/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:square-one",
+   "slug": "square-one",
+   "name": "Square One",
+   "category": "puzzle",
+   "tags": [
+    "sliding",
+    "minimal"
+   ],
+   "description": "Slide squares to clear the board.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/square-one/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:sudoku",
+   "slug": "sudoku",
+   "name": "Sudoku",
+   "category": "puzzle",
+   "tags": [
+    "logic",
+    "numbers",
+    "classic"
+   ],
+   "description": "Classic 9x9 number logic puzzle.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/sudoku/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:tetris",
+   "slug": "tetris",
+   "name": "Tetris",
+   "category": "puzzle",
+   "tags": [
+    "blocks",
+    "classic"
+   ],
+   "description": "The classic falling-block puzzle.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/tetris/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:tm-tetris",
+   "slug": "tm-tetris",
+   "name": "Tetris 经典版",
+   "category": "puzzle",
+   "tags": [],
+   "description": "经典俄罗斯方块，行消除得分",
+   "tech": "html5",
+   "embed": "https://tommalbran.github.io/games/tetris/",
+   "source_repo": "https://github.com/tommalbran/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:tile-tap",
+   "slug": "tile-tap",
+   "name": "Tile Tap",
+   "category": "puzzle",
+   "tags": [
+    "tap",
+    "tile",
+    "classic"
+   ],
+   "description": "Tap only the dark tiles. Don't miss.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/tile-tap/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:unruly",
+   "slug": "unruly",
+   "name": "Unruly",
+   "category": "puzzle",
+   "tags": [
+    "logic",
+    "binary"
+   ],
+   "description": "Place tiles by no-three-in-a-row rules.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/puzzle/unruly/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:untrusted",
+   "slug": "untrusted",
+   "name": "Untrusted 代码冒险",
+   "category": "puzzle",
+   "tags": [],
+   "description": "修改 JavaScript 代码通关的元游戏",
+   "tech": "html5",
+   "embed": "https://untrustedgame.com/",
+   "source_repo": "https://github.com/AlexNisnevich/untrusted",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "manual:vg-memory",
+   "slug": "vg-memory",
+   "name": "记忆翻牌",
+   "category": "puzzle",
+   "tags": [],
+   "description": "翻牌配对记忆游戏",
+   "tech": "html5",
+   "embed": "https://vader941.github.io/minigame/games/memory.html",
+   "source_repo": "https://github.com/Vader941/minigame",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:car-race",
+   "slug": "car-race",
+   "name": "Car Race",
+   "category": "racing",
+   "tags": [
+    "3d",
+    "cars",
+    "traffic"
+   ],
+   "description": "3D car-racing run with traffic dodging.",
+   "tech": "three",
+   "embed": "https://sausi-7.github.io/games/games/racing/car-race/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:endless-runner",
+   "slug": "endless-runner",
+   "name": "Endless Runner",
+   "category": "racing",
+   "tags": [
+    "runner",
+    "endless"
+   ],
+   "description": "Run forever. Dodge everything.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/racing/endless-runner/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:forest-runner",
+   "slug": "forest-runner",
+   "name": "Forest Runner",
+   "category": "racing",
+   "tags": [
+    "runner",
+    "forest"
+   ],
+   "description": "Sprint through a forest — dodge logs and gaps.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/racing/forest-runner/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:one-car",
+   "slug": "one-car",
+   "name": "One Car",
+   "category": "racing",
+   "tags": [
+    "traffic",
+    "reflex"
+   ],
+   "description": "Steer one car through dense traffic.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/racing/one-car/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:road-fighter",
+   "slug": "road-fighter",
+   "name": "Road Fighter",
+   "category": "racing",
+   "tags": [
+    "traffic",
+    "race",
+    "retro"
+   ],
+   "description": "Top-down race weaving through traffic.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/racing/road-fighter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:shadow-runner",
+   "slug": "shadow-runner",
+   "name": "Shadow Runner",
+   "category": "racing",
+   "tags": [
+    "runner",
+    "dark"
+   ],
+   "description": "Sprint through a shadow world.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/racing/shadow-runner/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:straight-rush",
+   "slug": "straight-rush",
+   "name": "Straight Rush",
+   "category": "racing",
+   "tags": [
+    "sprint",
+    "reflex"
+   ],
+   "description": "Sprint forward — react to oncoming hazards.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/racing/straight-rush/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:survival-run",
+   "slug": "survival-run",
+   "name": "Survival Run",
+   "category": "racing",
+   "tags": [
+    "survival",
+    "runner"
+   ],
+   "description": "Outrun the danger as long as you can.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/racing/survival-run/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:two-cars-ai",
+   "slug": "two-cars-ai",
+   "name": "Two Cars AI",
+   "category": "racing",
+   "tags": [
+    "dual",
+    "ai"
+   ],
+   "description": "AI-twist on the two-cars classic.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/racing/two-cars-ai/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:alien-battle",
+   "slug": "alien-battle",
+   "name": "Alien Battle",
+   "category": "shooter",
+   "tags": [
+    "aliens",
+    "top-down",
+    "survival"
+   ],
+   "description": "Top-down alien shooter. Survive the swarm.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/alien-battle/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:bird-shooter",
+   "slug": "bird-shooter",
+   "name": "Bird Shooter",
+   "category": "shooter",
+   "tags": [
+    "aim",
+    "reflex"
+   ],
+   "description": "Track and shoot flying birds.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/bird-shooter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:cannon-blaster",
+   "slug": "cannon-blaster",
+   "name": "Cannon Blaster",
+   "category": "shooter",
+   "tags": [
+    "cannon",
+    "physics",
+    "aim"
+   ],
+   "description": "Aim and fire cannonballs at targets.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/cannon-blaster/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:fighter-fury",
+   "slug": "fighter-fury",
+   "name": "Fighter Fury",
+   "category": "shooter",
+   "tags": [
+    "jet",
+    "side-scroll"
+   ],
+   "description": "Side-scrolling jet shooter.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/fighter-fury/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:fighter-jet",
+   "slug": "fighter-jet",
+   "name": "Fighter Jet",
+   "category": "shooter",
+   "tags": [
+    "jet",
+    "top-down"
+   ],
+   "description": "Top-down jet combat.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/fighter-jet/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:gun-run",
+   "slug": "gun-run",
+   "name": "Gun Run",
+   "category": "shooter",
+   "tags": [
+    "run-gun",
+    "side-scroll"
+   ],
+   "description": "Run-and-gun side-scroller.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/gun-run/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:gunman",
+   "slug": "gunman",
+   "name": "Gunman",
+   "category": "shooter",
+   "tags": [
+    "western",
+    "quickdraw"
+   ],
+   "description": "Quick-draw gunfight game.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/gunman/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:projectile-enemy",
+   "slug": "projectile-enemy",
+   "name": "Projectile Enemy",
+   "category": "shooter",
+   "tags": [
+    "bullet-hell",
+    "reflex"
+   ],
+   "description": "Dodge and counter ranged enemies.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/projectile-enemy/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:robot-destruction",
+   "slug": "robot-destruction",
+   "name": "Robot Destruction",
+   "category": "shooter",
+   "tags": [
+    "robots",
+    "blaster"
+   ],
+   "description": "Blast incoming robots to scrap.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/robot-destruction/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:shadow-shooter",
+   "slug": "shadow-shooter",
+   "name": "Shadow Shooter",
+   "category": "shooter",
+   "tags": [
+    "stealth",
+    "shooter"
+   ],
+   "description": "Pick off shadow enemies from cover.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/shadow-shooter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:shoot-enemy",
+   "slug": "shoot-enemy",
+   "name": "Shoot Enemy",
+   "category": "shooter",
+   "tags": [
+    "aim",
+    "reflex"
+   ],
+   "description": "Pick off enemies before they reach you.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/shoot-enemy/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:shooter",
+   "slug": "shooter",
+   "name": "Shooter",
+   "category": "shooter",
+   "tags": [
+    "arena",
+    "top-down"
+   ],
+   "description": "Top-down arena shooter.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/shooter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:sniper",
+   "slug": "sniper",
+   "name": "Sniper",
+   "category": "shooter",
+   "tags": [
+    "scope",
+    "precision"
+   ],
+   "description": "Steady your scope. One shot, one kill.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/sniper/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:space-fighter",
+   "slug": "space-fighter",
+   "name": "Space Fighter",
+   "category": "shooter",
+   "tags": [
+    "space",
+    "dogfight"
+   ],
+   "description": "Dogfight through asteroid fields.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/space-fighter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:survivor",
+   "slug": "survivor",
+   "name": "Survivor",
+   "category": "shooter",
+   "tags": [
+    "horde",
+    "survival",
+    "auto"
+   ],
+   "description": "Vampire-survivors-style horde survival.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/survivor/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:tee-shooter",
+   "slug": "tee-shooter",
+   "name": "Tee Shooter",
+   "category": "shooter",
+   "tags": [
+    "aim",
+    "tee"
+   ],
+   "description": "Tee-up trick-shot shooter.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/tee-shooter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:thunder-god",
+   "slug": "thunder-god",
+   "name": "Thunder God",
+   "category": "shooter",
+   "tags": [
+    "thunder",
+    "power"
+   ],
+   "description": "Smite enemies with lightning.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/thunder-god/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:tower-shooter",
+   "slug": "tower-shooter",
+   "name": "Tower Shooter",
+   "category": "shooter",
+   "tags": [
+    "defense",
+    "tower"
+   ],
+   "description": "Defend your tower from waves of enemies.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/tower-shooter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:window-shooter",
+   "slug": "window-shooter",
+   "name": "Window Shooter",
+   "category": "shooter",
+   "tags": [
+    "aim",
+    "reflex"
+   ],
+   "description": "Pick off enemies through the window.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/shooter/window-shooter/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:archer",
+   "slug": "archer",
+   "name": "Archer",
+   "category": "sports",
+   "tags": [
+    "bow",
+    "aim",
+    "precision"
+   ],
+   "description": "Aim, draw, and release. Hit your target.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/sports/archer/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:basketball",
+   "slug": "basketball",
+   "name": "Basketball",
+   "category": "sports",
+   "tags": [
+    "hoops",
+    "arcade-sports"
+   ],
+   "description": "Arc the ball through the hoop.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/sports/basketball/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:bowling",
+   "slug": "bowling",
+   "name": "Bowling",
+   "category": "sports",
+   "tags": [
+    "pins",
+    "aim",
+    "sport"
+   ],
+   "description": "Knock down all the pins.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/sports/bowling/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:cricket-123",
+   "slug": "cricket-123",
+   "name": "Cricket 1-2-3",
+   "category": "sports",
+   "tags": [
+    "cricket",
+    "reflex"
+   ],
+   "description": "Bat through fast deliveries.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/sports/cricket-123/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:football",
+   "slug": "football",
+   "name": "Football",
+   "category": "sports",
+   "tags": [
+    "soccer",
+    "goals"
+   ],
+   "description": "Score goals in a fast-paced footy match.",
+   "tech": "html",
+   "embed": "https://sausi-7.github.io/games/games/sports/football/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:penalty",
+   "slug": "penalty",
+   "name": "Penalty Shootout",
+   "category": "sports",
+   "tags": [
+    "soccer",
+    "quick"
+   ],
+   "description": "One-on-one penalty kicks vs the keeper.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/sports/penalty/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:table-tennis",
+   "slug": "table-tennis",
+   "name": "Table Tennis",
+   "category": "sports",
+   "tags": [
+    "pong",
+    "sport"
+   ],
+   "description": "Volley the ping-pong ball.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/sports/table-tennis/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:math-quest",
+   "slug": "math-quest",
+   "name": "Math Quest",
+   "category": "word-quiz",
+   "tags": [
+    "math",
+    "education",
+    "quick"
+   ],
+   "description": "Speed math challenge.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/word-quiz/math-quest/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:quiz",
+   "slug": "quiz",
+   "name": "Quiz",
+   "category": "word-quiz",
+   "tags": [
+    "trivia",
+    "education"
+   ],
+   "description": "Test your knowledge across categories.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/word-quiz/quiz/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:wordle",
+   "slug": "wordle",
+   "name": "Wordlee",
+   "category": "word-quiz",
+   "tags": [
+    "wordle",
+    "letters"
+   ],
+   "description": "Guess the 5-letter word in 6 tries.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/word-quiz/wordle/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  },
+  {
+   "id": "sausi7:words-of-wonder",
+   "slug": "words-of-wonder",
+   "name": "Words of Wonder",
+   "category": "word-quiz",
+   "tags": [
+    "letters",
+    "spelling"
+   ],
+   "description": "Build words from a wheel of letters.",
+   "tech": "phaser",
+   "embed": "https://sausi-7.github.io/games/games/word-quiz/words-of-wonder/index.html",
+   "source_repo": "https://github.com/sausi-7/games",
+   "license": "MIT",
+   "embed_ok": true
+  }
+ ]
+}

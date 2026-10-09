@@ -1,0 +1,56 @@
+{
+  "name": "@gamehub/dsh-arcade",
+  "version": "0.1.0",
+  "description": "🎮 GameHub Arcade — DeepSeek Harness 侧边栏小游戏中心：1000+ 经典网页游戏，即点即玩，无需安装。",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "games",
+    "arcade",
+    "mini-games",
+    "sidebar",
+    "entertainment",
+    "html5-games"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "prepare": "node build.mjs",
+    "check": "node --check lib/index.js && node --check lib/client.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE",
+    "assets"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
