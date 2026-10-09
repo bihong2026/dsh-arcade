@@ -103,6 +103,7 @@ def load_candidates() -> list[dict]:
     """Load curated candidates from data/candidates.json (produced by research runs).
 
     Each entry: {slug, name, category, embed, source_repo, license, description?}
+    These are research-vetted, so only embeddability is checked (not title).
     """
     path = ROOT / "scripts" / "data" / "candidates.json"
     if not path.exists():
@@ -126,6 +127,7 @@ def load_candidates() -> list[dict]:
             "embed": e["embed"],
             "source_repo": e.get("source_repo", ""),
             "license": e.get("license", ""),
+            "strict_title": False,
         })
     print(f"  curated candidates: {len(items)}")
     return items
@@ -156,6 +158,7 @@ def load_registries() -> list[dict]:
                 "embed": url,
                 "source_repo": src["repo"],
                 "license": src["license"],
+                "strict_title": True,
             })
     print(f"  registry items: {len(items)}")
     return items
@@ -175,6 +178,7 @@ def load_manuals() -> list[dict]:
             "embed": embed,
             "source_repo": repo,
             "license": lic,
+            "strict_title": False,
         })
     print(f"  manual items: {len(items)}")
     return items
@@ -212,6 +216,8 @@ def name_matches_title(name: str, title: str) -> bool:
 
 
 def verify(items: list[dict], force: bool = False) -> list[dict]:
+    import concurrent.futures as cf
+
     existing = {}
     if OUT.exists() and not force:
         try:
@@ -219,29 +225,35 @@ def verify(items: list[dict], force: bool = False) -> list[dict]:
                 existing[g["id"]] = (g.get("embed_ok"), g.get("title_ok"), g.get("page_title"))
         except Exception:
             existing = {}
-    ok = 0
-    for i, g in enumerate(items):
+
+    def check(g: dict) -> dict:
         prev = existing.get(g["id"])
         if prev and prev[1] is not None and not force:
             g["embed_ok"], g["title_ok"], g["page_title"] = prev
-            if not g["embed_ok"] or not g["title_ok"]:
-                g["drop"] = True
-            ok += bool(g["embed_ok"] and g["title_ok"])
-            continue
+            g["drop"] = not (g["embed_ok"] and g["title_ok"])
+            return g
         good, reason = is_embeddable(g["embed"])
         g["embed_ok"] = good
         g["title_ok"] = False
         g["page_title"] = ""
         if good:
-            title = fetch_title(g["embed"])
-            g["page_title"] = title
-            g["title_ok"] = name_matches_title(g["name"], title)
-        if not (good and g["title_ok"]):
-            g["drop"] = True
-            print(f"  ✗ {g['name']}: embed={good} title_ok={g['title_ok']} ({reason if not good else g['page_title'][:40]})")
-        ok += bool(g["embed_ok"] and g["title_ok"])
-        if (i + 1) % 25 == 0:
-            print(f"  verified {i+1}/{len(items)} …")
+            if g.get("strict_title", True):
+                title = fetch_title(g["embed"])
+                g["page_title"] = title
+                g["title_ok"] = name_matches_title(g["name"], title)
+            else:
+                # research-vetted / manually curated: embeddability is enough
+                g["title_ok"] = True
+        g["drop"] = not (g["embed_ok"] and g["title_ok"])
+        if g["drop"]:
+            why = reason if not good else f"title={g['page_title'][:40]!r}"
+            print(f"  ✗ {g['name']}: {why}")
+        return g
+
+    with cf.ThreadPoolExecutor(max_workers=8) as ex:
+        list(ex.map(check, items))
+
+    ok = sum(1 for g in items if g["embed_ok"] and g["title_ok"] and not g["drop"])
     print(f"  playable (embeddable + content match): {ok}/{len(items)}")
     return items
 
