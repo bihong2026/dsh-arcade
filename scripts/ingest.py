@@ -99,6 +99,38 @@ def is_embeddable(url: str) -> tuple[bool, str]:
     return True, "ok"
 
 
+def load_candidates() -> list[dict]:
+    """Load curated candidates from data/candidates.json (produced by research runs).
+
+    Each entry: {slug, name, category, embed, source_repo, license, description?}
+    """
+    path = ROOT / "scripts" / "data" / "candidates.json"
+    if not path.exists():
+        return []
+    try:
+        entries = json.loads(path.read_text())
+    except json.JSONDecodeError:
+        print(f"  ! failed to parse {path}", file=sys.stderr)
+        return []
+    items = []
+    for e in entries:
+        slug = e["slug"]
+        items.append({
+            "id": f"curated:{slug}",
+            "slug": slug,
+            "name": e["name"],
+            "category": e.get("category", "casual"),
+            "tags": e.get("tags", []),
+            "description": e.get("description", ""),
+            "tech": e.get("tech", "html5"),
+            "embed": e["embed"],
+            "source_repo": e.get("source_repo", ""),
+            "license": e.get("license", ""),
+        })
+    print(f"  curated candidates: {len(items)}")
+    return items
+
+
 def load_registries() -> list[dict]:
     items = []
     for src in REGISTRY_SOURCES:
@@ -148,32 +180,74 @@ def load_manuals() -> list[dict]:
     return items
 
 
+def fetch_title(url: str) -> str:
+    """Fetch a game page and return its <title> (for content mismatch checks)."""
+    try:
+        out = subprocess.run(
+            ["curl", "-s", "-m", "20", "-A", "Mozilla/5.0", "-L", url],
+            capture_output=True, text=True, timeout=30
+        ).stdout
+    except subprocess.TimeoutExpired:
+        return ""
+    m = re.search(r"<title[^>]*>(.*?)</title>", out, re.S)
+    return m.group(1).strip() if m else ""
+
+
+def name_matches_title(name: str, title: str) -> bool:
+    """Loose check that a page's title corresponds to the catalog name."""
+    if not title:
+        return False
+    n, t = name.lower(), title.lower()
+    # strip common decorations from title
+    for junk in (" - portrait", " – portrait", "🐴", "play", "free online game", "game"):
+        t = t.replace(junk, " ")
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    n = re.sub(r"[^a-z0-9 ]", " ", n)
+    tw = set(t.split()) - {"the", "a", "of", "in", "js", "html5", "phaser"}
+    nw = set(n.split())
+    if not nw:
+        return False
+    overlap = len(nw & tw) / len(nw)
+    return overlap >= 0.5 or n[:8] in t
+
+
 def verify(items: list[dict], force: bool = False) -> list[dict]:
     existing = {}
     if OUT.exists() and not force:
         try:
             for g in json.loads(OUT.read_text())["games"]:
-                existing[g["id"]] = g.get("embed_ok")
+                existing[g["id"]] = (g.get("embed_ok"), g.get("title_ok"), g.get("page_title"))
         except Exception:
             existing = {}
     ok = 0
     for i, g in enumerate(items):
-        if g["id"] in existing and not force:
-            g["embed_ok"] = existing[g["id"]]
+        prev = existing.get(g["id"])
+        if prev and prev[1] is not None and not force:
+            g["embed_ok"], g["title_ok"], g["page_title"] = prev
+            if not g["embed_ok"] or not g["title_ok"]:
+                g["drop"] = True
+            ok += bool(g["embed_ok"] and g["title_ok"])
             continue
         good, reason = is_embeddable(g["embed"])
         g["embed_ok"] = good
-        if not good:
-            print(f"  ✗ {g['name']}: {reason}")
-        ok += good
+        g["title_ok"] = False
+        g["page_title"] = ""
+        if good:
+            title = fetch_title(g["embed"])
+            g["page_title"] = title
+            g["title_ok"] = name_matches_title(g["name"], title)
+        if not (good and g["title_ok"]):
+            g["drop"] = True
+            print(f"  ✗ {g['name']}: embed={good} title_ok={g['title_ok']} ({reason if not good else g['page_title'][:40]})")
+        ok += bool(g["embed_ok"] and g["title_ok"])
         if (i + 1) % 25 == 0:
             print(f"  verified {i+1}/{len(items)} …")
-    print(f"  embeddable: {ok}/{len(items)}")
+    print(f"  playable (embeddable + content match): {ok}/{len(items)}")
     return items
 
 
 def build_catalog(items: list[dict]) -> dict:
-    games = [g for g in items if g["embed_ok"]]
+    games = [g for g in items if g.get("embed_ok") and g.get("title_ok") and not g.get("drop")]
     games.sort(key=lambda g: (g["category"], g["name"].lower()))
     return {
         "version": 2,
@@ -206,8 +280,9 @@ def build_catalog(items: list[dict]) -> dict:
 
 def main():
     force = "--check" in sys.argv or "--force" in sys.argv
-    print("[1/3] loading registries …")
+    print("[1/3] loading sources …")
     items = load_registries()
+    items += load_candidates()
     items += load_manuals()
     # dedupe by slug, first wins
     seen, uniq = set(), []
