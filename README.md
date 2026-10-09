@@ -10,7 +10,7 @@
 <a href="https://github.com/gamehub-dev/dsh-arcade/network/members"><img src="https://img.shields.io/github/forks/gamehub-dev/dsh-arcade?style=flat-square" alt="Forks"></a>
 <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
 <img src="https://img.shields.io/badge/platform-dsh--web-blue?style=flat-square" alt="DSH web">
-<img src="https://img.shields.io/badge/games-150%2B%20%E2%86%92%201000-orange?style=flat-square" alt="Games count">
+<img src="https://img.shields.io/badge/games-26%2B%20%E2%86%92%201000-orange?style=flat-square" alt="Games count">
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 **GameHub Arcade** 是一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件。安装后，DSH Web 界面侧边栏会多出一个 **🎮 游戏** 标签，点开就是完整的游戏中心：
 
-- 🕹️ **150+ 上线游戏，目标 1000+**：贪吃蛇、2048、俄罗斯方块、吃豆人、扫雷、围棋、Hextris……全部来自开源社区（MIT 等），逐个验证可嵌入后收录
+- 🕹️ **26+ 上线游戏，持续扩充**：贪吃蛇、2048、俄罗斯方块、吃豆人、扫雷、围棋、Hextris……全部来自开源社区（MIT 等），逐个验证可嵌入、可实际运行后收录
 - ⚡ **即点即玩**：游戏在沙箱 iframe 中运行，不装任何本地依赖
 - 🔍 **搜索 / 分类 / 收藏 / 随机**：棋盘游戏、街机、益智、3D 等 10 大分类
 - 🌓 **明暗主题**：跟随系统，护眼
@@ -129,7 +129,7 @@ python3 -m http.server 8080 --directory site   # 本地预览
 - [x] 插件骨架 + 侧边栏标签 + 沙箱播放器
 - [x] 目录管线与可嵌入性校验
 - [x] 网站启动页（搜索/分类/收藏/随机/全屏）
-- [ ] 150+ → 1000+ 游戏扩充（持续跑 ingest，欢迎 PR）
+- [ ] 26 → 1000+ 游戏扩充（持续跑 ingest，欢迎 PR）
 - [ ] 游戏排行榜（localStorage 起步，后端可选）
 - [ ] 中英文目录元数据
 - [ ] DSH 主题色适配（读取 --dsw-* tokens）
