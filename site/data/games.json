@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-10-09T16:38:36.251916Z",
+ "generated_at": "2026-10-09T16:42:15.876427Z",
  "schema": {
   "id": "stable unique id (source:slug)",
   "slug": "url-safe identifier",
@@ -56,6 +56,21 @@
    "id": "word",
    "label": "文字",
    "emoji": "📝"
+  },
+  {
+   "id": "word-quiz",
+   "label": "文字",
+   "emoji": "📝"
+  },
+  {
+   "id": "rpg",
+   "label": "角色扮演",
+   "emoji": "⚔️"
+  },
+  {
+   "id": "strategy",
+   "label": "策略",
+   "emoji": "🏰"
   },
   {
    "id": "3d",
