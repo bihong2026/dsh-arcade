@@ -8,8 +8,8 @@
 //   - inject: ["slots", "layout"]，用 ctx.slots.inject(name, register) 两段式注册；
 //   - sidebar.panellist 的 id 与 cordis.patch.yml 里 insert 的 id 一致，main 的 key 同 id。
 //
-// 游戏中心本体是一个独立站点（默认 http://122.51.206.118/，94 款游戏全量自托管），
-// 这里只是沙箱 iframe 嵌入。
+// 游戏中心本体是宿主同源反代的 /gamehub-arcade/site/（上游是作者部署的站点，
+// 94 款游戏全量自托管），这里只是沙箱 iframe 嵌入。
 
 window.__ModuleLoader__.load({
 	id: "@gamehub/dsh-arcade",
@@ -19,19 +19,18 @@ window.__ModuleLoader__.load({
 
 		/** 侧栏那一项与整页共用同一个 id，改这里两处一起改（cordis.patch.yml 的 insert id 同步改）。 */
 		const PANEL_ID = "gamehub-arcade";
-		/** 游戏中心站点地址。末尾斜杠在 view 里统一剪掉再补一个。 */
-		const SITE_BASE = "http://122.51.206.118/";
+		/** 前端 iframe 的地址：宿主同源反代前缀（index.js 的 SITE_PREFIX）。直连 http 站点会被桌面端判混合内容拦掉。 */
+		const EMBED_PATH = "/gamehub-arcade/site/";
 
 		/** 整页：把游戏中心站点用沙箱 iframe 装满。 */
 		function ArcadePage() {
-			const base = SITE_BASE.replace(/\/+$/, "/");
-			return h("iframe", {
-				src: base,
+				return h("iframe", {
+				src: EMBED_PATH,
 				title: "GameHub Arcade",
 				allow: "fullscreen; autoplay; gamepad",
 				// 沙箱刻意放宽：游戏中心与 DSH 跨源，iframe 内的脚本碰不到宿主数据。
 				sandbox: "allow-scripts allow-same-origin allow-pointer-lock allow-popups allow-forms allow-modals allow-orientation-lock allow-presentation allow-downloads",
-				style: { flex: 1, border: "0", width: "100%", height: "100%", background: "var(--dsw-alias-bg-primary, #0b0e14)" }
+					style: { flex: 1, border: "0", width: "100%", height: "100%", background: "var(--dsw-alias-bg-primary, #0b0e14)" }
 			});
 		}
 

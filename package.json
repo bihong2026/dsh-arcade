@@ -1,49 +1,49 @@
 {
-  "name": "@gamehub/dsh-arcade",
-  "version": "0.2.0",
-  "description": "🎮 GameHub Arcade — DeepSeek Harness 侧边栏小游戏中心：94 款实测可玩的开源网页游戏，即点即玩，无需安装。",
-  "license": "MIT",
-  "keywords": [
-    "dsh",
-    "deepseek-harness",
-    "dsh-plugin",
-    "games",
-    "arcade",
-    "mini-games",
-    "sidebar",
-    "entertainment",
-    "html5-games"
-  ],
-  "type": "module",
-  "main": "lib/index.js",
-  "exports": {
-    ".": "./index.js",
-    "./client": "./client.js",
-    "./package.json": "./package.json"
-  },
-  "scripts": {},
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "platform": "web",
-      "immediately": true,
-      "inject": [
-        "@deepseek-ai/dsh-client-locale",
-        "@deepseek-ai/dsh-client-ui-layout",
-        "@deepseek-ai/dsh-client-ui-sidebar"
-      ]
-    }
-  },
-  "files": [
-    "index.js",
-    "client.js",
-    "cordis.patch.yml",
-    "site",
-    "scripts",
-    "README.md",
-    "README.en.md",
-    "LICENSE"
-  ]
+	"name": "@gamehub/dsh-arcade",
+	"version": "0.2.1",
+	"description": "🎮 GameHub Arcade — DeepSeek Harness 侧边栏小游戏中心：94 款实测可玩的开源网页游戏，即点即玩，无需安装。",
+	"license": "MIT",
+	"keywords": [
+		"dsh",
+		"deepseek-harness",
+		"dsh-plugin",
+		"games",
+		"arcade",
+		"mini-games",
+		"sidebar",
+		"entertainment",
+		"html5-games"
+	],
+	"type": "module",
+	"main": "lib/index.js",
+	"exports": {
+		".": "./index.js",
+		"./client": "./client.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {},
+	"dsh": {
+		"bundle": {
+			"patch": "./cordis.patch.yml"
+		},
+		"client": {
+			"platform": "web",
+			"immediately": true,
+			"inject": [
+				"@deepseek-ai/dsh-client-locale",
+				"@deepseek-ai/dsh-client-ui-layout",
+				"@deepseek-ai/dsh-client-ui-sidebar"
+			]
+		}
+	},
+	"files": [
+		"index.js",
+		"client.js",
+		"cordis.patch.yml",
+		"site",
+		"scripts",
+		"README.md",
+		"README.en.md",
+		"LICENSE"
+	]
 }
