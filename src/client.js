@@ -3,7 +3,7 @@
 // (marked external at build time, same as reference community plugins).
 import React from "react";
 
-const GAMEHUB_URL = window.__GAMEHUB_URL__ || "https://bihong2026.github.io/dsh-arcade/";
+const GAMEHUB_URL = window.__GAMEHUB_URL__ || "http://122.51.206.118/";
 const PLUGIN_TAB_ID = "@gamehub/dsh-arcade:arcade";
 
 function ArcadeView() {
