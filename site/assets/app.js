@@ -77,10 +77,12 @@
       card.setAttribute('data-id', g.id);
       var fav = favs().indexOf(g.id) >= 0;
       card.innerHTML =
-        '<div class="card-top"><span class="card-emoji">' + gameEmoji(g) + '</span>' +
+        (g.cover ? '<img class="card-cover" loading="lazy" alt="" src="' + esc(g.cover) + '">' :
+                   '<span class="card-emoji">' + gameEmoji(g) + '</span>') +
+        '<div class="card-body">' +
+        '<div class="card-top"><span class="card-name">' + esc(g.name) + '</span>' +
         '<span class="card-cat" data-fav="' + (fav ? '⭐' : '☆') + '">' + (fav ? '⭐' : (CAT_META[g.category] || {}).label || '') + '</span></div>' +
-        '<div class="card-name">' + esc(g.name) + '</div>' +
-        '<div class="card-desc">' + esc(g.description || '') + '</div>';
+        '<div class="card-desc">' + esc(g.description || '') + '</div></div>';
       card.onclick = function (e) {
         if (e.target.hasAttribute('data-fav')) {
           toggleFav(g.id); renderCats(); renderGrid(); return;

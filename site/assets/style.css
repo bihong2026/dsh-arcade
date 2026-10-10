@@ -76,12 +76,16 @@ a:hover { text-decoration: underline; }
 }
 .card {
   background: var(--gb-card); border: 1px solid var(--gb-border);
-  border-radius: var(--gb-radius); padding: 14px; cursor: pointer;
+  border-radius: var(--gb-radius); padding: 0 0 12px; cursor: pointer;
   transition: transform .12s ease, background .12s ease, border-color .12s ease;
-  display: flex; flex-direction: column; gap: 6px; min-height: 118px;
+  display: flex; flex-direction: column; gap: 6px; overflow: hidden;
 }
 .card:hover { transform: translateY(-3px); background: var(--gb-card-hover); border-color: var(--gb-accent); }
-.card-top { display: flex; justify-content: space-between; align-items: baseline; }
+.card-cover { width: 100%; aspect-ratio: 16 / 9; display: block; background: var(--gb-card-hover); object-fit: cover; }
+.card-body { padding: 0 14px; display: flex; flex-direction: column; gap: 6px; }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.card-top .card-name { flex: 1; }
+.card-top .card-cat { flex-shrink: 0; white-space: nowrap; }
 .card-emoji { font-size: 24px; }
 .card-cat { font-size: 11px; color: var(--gb-fg-dim); }
 .card-name { font-weight: 600; font-size: 14px; line-height: 1.3; }

@@ -58,11 +58,6 @@
       "emoji": "📝"
     },
     {
-      "id": "word-quiz",
-      "label": "文字",
-      "emoji": "📝"
-    },
-    {
       "id": "rpg",
       "label": "角色扮演",
       "emoji": "⚔️"
@@ -95,7 +90,8 @@
       "title_ok": true,
       "page_title": "3D.CITY",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/3d-city.jpg"
     },
     {
       "id": "curated:cube-engine",
@@ -113,7 +109,8 @@
       "title_ok": true,
       "page_title": "Cube Engine v1.0",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/cube-engine.jpg"
     },
     {
       "id": "sausi7:stack-tower",
@@ -135,7 +132,8 @@
       "title_ok": true,
       "page_title": "Stack Tower 3D – Neon",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/stack-tower.jpg"
     },
     {
       "id": "curated:antipacman",
@@ -153,7 +151,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/antipacman.jpg"
     },
     {
       "id": "curated:arashi",
@@ -171,7 +170,8 @@
       "title_ok": true,
       "page_title": "ArashiJS",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/arashi.jpg"
     },
     {
       "id": "curated:avabranch",
@@ -189,7 +189,8 @@
       "title_ok": true,
       "page_title": "Avabranch",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/avabranch.jpg"
     },
     {
       "id": "curated:ball-and-wall",
@@ -207,7 +208,8 @@
       "title_ok": true,
       "page_title": "Ball And Wall - Simple arkanoid style game",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/ball-and-wall.jpg"
     },
     {
       "id": "curated:clumsy-bird",
@@ -225,7 +227,8 @@
       "title_ok": true,
       "page_title": "Clumsy Bird",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/clumsy-bird.jpg"
     },
     {
       "id": "curated:coil",
@@ -243,7 +246,8 @@
       "title_ok": true,
       "page_title": "Coil - Use your trail to enclose enemies in this reflex HTML5 game.",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/coil.jpg"
     },
     {
       "id": "sausi7:crossy-road",
@@ -264,7 +268,8 @@
       "title_ok": true,
       "page_title": "Talha - Crossy Road Game Clone",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/crossy-road.jpg"
     },
     {
       "id": "sausi7:curve-snake",
@@ -285,7 +290,8 @@
       "title_ok": true,
       "page_title": "Curvy Snake – Pure JS",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/curve-snake.jpg"
     },
     {
       "id": "curated:digger",
@@ -303,7 +309,8 @@
       "title_ok": true,
       "page_title": "Digger",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/digger.jpg"
     },
     {
       "id": "sausi7:dream-weaver",
@@ -324,7 +331,8 @@
       "title_ok": true,
       "page_title": "Dream Weaver — Bridges (Aligned)",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/dream-weaver.jpg"
     },
     {
       "id": "curated:drill-bunny",
@@ -342,7 +350,8 @@
       "title_ok": true,
       "page_title": "Chacket Valleyparker: DRILL BUNNY",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/drill-bunny.jpg"
     },
     {
       "id": "curated:drunken-viking",
@@ -360,7 +369,8 @@
       "title_ok": true,
       "page_title": "Drunken Viking",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/drunken-viking.jpg"
     },
     {
       "id": "sausi7:kaiju-krush",
@@ -381,7 +391,8 @@
       "title_ok": true,
       "page_title": "Kaiju Krush",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/kaiju-krush.jpg"
     },
     {
       "id": "curated:lode-runner",
@@ -399,7 +410,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/lode-runner.jpg"
     },
     {
       "id": "sausi7:luma-bounce",
@@ -420,7 +432,8 @@
       "title_ok": true,
       "page_title": "LumaBounce",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/luma-bounce.jpg"
     },
     {
       "id": "curated:pacman-html5",
@@ -438,7 +451,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/pacman-html5.jpg"
     },
     {
       "id": "curated:snake-game-rc",
@@ -456,7 +470,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/snake-game-rc.jpg"
     },
     {
       "id": "curated:snake-new",
@@ -474,7 +489,8 @@
       "title_ok": true,
       "page_title": "Snake v8",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/snake-new.jpg"
     },
     {
       "id": "curated:squirts",
@@ -492,7 +508,8 @@
       "title_ok": true,
       "page_title": "Squirts",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/squirts.jpg"
     },
     {
       "id": "sausi7:swipe-assassin",
@@ -513,7 +530,8 @@
       "title_ok": true,
       "page_title": "Swipe Assassin",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/swipe-assassin.jpg"
     },
     {
       "id": "manual:tm-pacman",
@@ -531,7 +549,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/tm-pacman.jpg"
     },
     {
       "id": "manual:tm-snake",
@@ -549,7 +568,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/tm-snake.jpg"
     },
     {
       "id": "sausi7:chess",
@@ -570,7 +590,8 @@
       "title_ok": true,
       "page_title": "Simple Chess — Phaser 3 (PvC + Overlays)",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/chess.jpg"
     },
     {
       "id": "curated:hexa-battle",
@@ -588,7 +609,8 @@
       "title_ok": true,
       "page_title": "Hexa Battle",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/hexa-battle.jpg"
     },
     {
       "id": "sausi7:ludo",
@@ -610,7 +632,8 @@
       "title_ok": true,
       "page_title": "Ludo – You vs 3 AI",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/ludo.jpg"
     },
     {
       "id": "sausi7:rock-paper-scissors",
@@ -631,7 +654,8 @@
       "title_ok": true,
       "page_title": "Rock Paper Scissors",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/rock-paper-scissors.jpg"
     },
     {
       "id": "manual:connect4",
@@ -649,7 +673,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/connect4.jpg"
     },
     {
       "id": "manual:vg-go",
@@ -667,7 +692,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/vg-go.jpg"
     },
     {
       "id": "manual:vg-battleship",
@@ -685,7 +711,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/vg-battleship.jpg"
     },
     {
       "id": "manual:tm-spider",
@@ -703,7 +730,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/tm-spider.jpg"
     },
     {
       "id": "curated:a-dark-room",
@@ -721,7 +749,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/a-dark-room.jpg"
     },
     {
       "id": "curated:matchimals",
@@ -739,7 +768,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/matchimals.jpg"
     },
     {
       "id": "curated:monster-wants-candy",
@@ -757,7 +787,8 @@
       "title_ok": true,
       "page_title": "Monster Wants Candy demo",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/monster-wants-candy.jpg"
     },
     {
       "id": "curated:particle-clicker",
@@ -775,7 +806,8 @@
       "title_ok": true,
       "page_title": "Particle Clicker",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/particle-clicker.jpg"
     },
     {
       "id": "curated:sandboxels",
@@ -793,7 +825,8 @@
       "title_ok": true,
       "page_title": "Sandboxels - Experiment with Pixels",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/sandboxels.jpg"
     },
     {
       "id": "curated:slotjs",
@@ -811,7 +844,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/slotjs.jpg"
     },
     {
       "id": "curated:the-house",
@@ -829,7 +863,8 @@
       "title_ok": true,
       "page_title": "The House",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/the-house.jpg"
     },
     {
       "id": "curated:turkey-cooking-simulator",
@@ -847,7 +882,8 @@
       "title_ok": true,
       "page_title": "Turkey Cooking Simulator",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/turkey-cooking-simulator.jpg"
     },
     {
       "id": "curated:alge-s-escapade",
@@ -865,7 +901,8 @@
       "title_ok": true,
       "page_title": "Alge's Escapade",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/alge-s-escapade.jpg"
     },
     {
       "id": "curated:color-quest",
@@ -883,7 +920,8 @@
       "title_ok": true,
       "page_title": "Color Quest - Red Blue Games",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/color-quest.jpg"
     },
     {
       "id": "curated:emberwind",
@@ -901,7 +939,8 @@
       "title_ok": true,
       "page_title": "Emberwind",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/emberwind.jpg"
     },
     {
       "id": "curated:hyperspace-garbage-collector",
@@ -919,7 +958,8 @@
       "title_ok": true,
       "page_title": "Hyperspace Garbage Collection",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/hyperspace-garbage-collector.jpg"
     },
     {
       "id": "curated:octocat-jump",
@@ -937,7 +977,8 @@
       "title_ok": true,
       "page_title": "Octocat Jump",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/octocat-jump.jpg"
     },
     {
       "id": "curated:super-mario-bros",
@@ -955,7 +996,8 @@
       "title_ok": true,
       "page_title": "Super Mario Bros Level 1-1 - Backbone Game Engine",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/super-mario-bros.jpg"
     },
     {
       "id": "curated:transcube",
@@ -973,7 +1015,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/transcube.jpg"
     },
     {
       "id": "manual:2048-og",
@@ -991,7 +1034,8 @@
       "title_ok": true,
       "page_title": "2048",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/2048-og.jpg"
     },
     {
       "id": "curated:blockrain-js",
@@ -1009,7 +1053,8 @@
       "title_ok": true,
       "page_title": "Blockrain.js - A Tetris game in HTML5 + Javascript (with autoplay!)",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/blockrain-js.jpg"
     },
     {
       "id": "curated:alchemy",
@@ -1027,7 +1072,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/alchemy.jpg"
     },
     {
       "id": "curated:custom-tetris",
@@ -1045,7 +1091,8 @@
       "title_ok": true,
       "page_title": "Custom Tetris",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/custom-tetris.jpg"
     },
     {
       "id": "curated:hex-2048",
@@ -1063,7 +1110,8 @@
       "title_ok": true,
       "page_title": "Hex 2048",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/hex-2048.jpg"
     },
     {
       "id": "sausi7:hex-puzzle",
@@ -1084,7 +1132,8 @@
       "title_ok": true,
       "page_title": "Hex Puzzle – Pure JS (Enhanced)",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/hex-puzzle.jpg"
     },
     {
       "id": "manual:hextris",
@@ -1102,7 +1151,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/hextris.jpg"
     },
     {
       "id": "sausi7:line-trap",
@@ -1123,7 +1173,8 @@
       "title_ok": true,
       "page_title": "Line Trap",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/line-trap.jpg"
     },
     {
       "id": "curated:masonry-javascript-tetris-clone",
@@ -1141,7 +1192,8 @@
       "title_ok": true,
       "page_title": "Masonry - Game Dolphin",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/masonry-javascript-tetris-clone.jpg"
     },
     {
       "id": "curated:matching-pairs",
@@ -1159,7 +1211,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/matching-pairs.jpg"
     },
     {
       "id": "curated:orbium",
@@ -1177,7 +1230,8 @@
       "title_ok": true,
       "page_title": "Orbium",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/orbium.jpg"
     },
     {
       "id": "curated:parity",
@@ -1195,7 +1249,8 @@
       "title_ok": true,
       "page_title": "Parity",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/parity.jpg"
     },
     {
       "id": "curated:sliding-puzzle",
@@ -1213,7 +1268,8 @@
       "title_ok": true,
       "page_title": "Sliding Puzzle - Game Dolphin",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/sliding-puzzle.jpg"
     },
     {
       "id": "sausi7:sudoku",
@@ -1235,7 +1291,8 @@
       "title_ok": true,
       "page_title": "Sudoku with Timer & Celebration",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/sudoku.jpg"
     },
     {
       "id": "sausi7:tetris",
@@ -1256,7 +1313,8 @@
       "title_ok": true,
       "page_title": "Pure JS Tetris – Immersive Portrait",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/tetris.jpg"
     },
     {
       "id": "manual:tm-tetris",
@@ -1274,7 +1332,8 @@
       "title_ok": true,
       "page_title": "Tetris",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/tm-tetris.jpg"
     },
     {
       "id": "manual:untrusted",
@@ -1292,7 +1351,8 @@
       "title_ok": true,
       "page_title": "Untrusted - a user javascript adventure game",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/untrusted.jpg"
     },
     {
       "id": "curated:zoko",
@@ -1310,7 +1370,8 @@
       "title_ok": true,
       "page_title": "Zoko",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/zoko.jpg"
     },
     {
       "id": "manual:vg-memory",
@@ -1328,7 +1389,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/vg-memory.jpg"
     },
     {
       "id": "sausi7:car-race",
@@ -1350,7 +1412,8 @@
       "title_ok": true,
       "page_title": "Car Runner 3D",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/car-race.jpg"
     },
     {
       "id": "curated:hexgl",
@@ -1371,7 +1434,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/hexgl.jpg"
     },
     {
       "id": "curated:hauberk",
@@ -1389,7 +1453,8 @@
       "title_ok": true,
       "page_title": "Hauberk",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/hauberk.jpg"
     },
     {
       "id": "curated:alien-invasion",
@@ -1407,7 +1472,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/alien-invasion.jpg"
     },
     {
       "id": "curated:bananabread",
@@ -1425,7 +1491,8 @@
       "title_ok": true,
       "page_title": "BananaBread",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/bananabread.jpg"
     },
     {
       "id": "curated:escape-space",
@@ -1443,7 +1510,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/escape-space.jpg"
     },
     {
       "id": "sausi7:fighter-fury",
@@ -1464,7 +1532,8 @@
       "title_ok": true,
       "page_title": "Jet Fighter - Portrait",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/fighter-fury.jpg"
     },
     {
       "id": "sausi7:fighter-jet",
@@ -1485,7 +1554,8 @@
       "title_ok": true,
       "page_title": "Jet Fighter - Portrait",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/fighter-jet.jpg"
     },
     {
       "id": "sausi7:space-fighter",
@@ -1506,7 +1576,8 @@
       "title_ok": true,
       "page_title": "Jet Fighter - Portrait",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/space-fighter.jpg"
     },
     {
       "id": "curated:spashal",
@@ -1524,7 +1595,8 @@
       "title_ok": true,
       "page_title": "Spashal",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/spashal.jpg"
     },
     {
       "id": "curated:star-battle",
@@ -1542,7 +1614,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/star-battle.jpg"
     },
     {
       "id": "sausi7:window-shooter",
@@ -1563,7 +1636,8 @@
       "title_ok": true,
       "page_title": "Window Shooter Game",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/window-shooter.jpg"
     },
     {
       "id": "curated:wpilot",
@@ -1581,7 +1655,8 @@
       "title_ok": true,
       "page_title": "WPilot - a space journey in your browser",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/wpilot.jpg"
     },
     {
       "id": "curated:zedinvaders",
@@ -1599,7 +1674,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/zedinvaders.jpg"
     },
     {
       "id": "sausi7:archer",
@@ -1621,7 +1697,8 @@
       "title_ok": true,
       "page_title": "Archery Game",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/archer.jpg"
     },
     {
       "id": "sausi7:bowling",
@@ -1643,7 +1720,8 @@
       "title_ok": true,
       "page_title": "StrikeFlow — Ten‑Pin Bowling",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/bowling.jpg"
     },
     {
       "id": "curated:classic-pool-game",
@@ -1661,7 +1739,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/classic-pool-game.jpg"
     },
     {
       "id": "sausi7:football",
@@ -1682,7 +1761,8 @@
       "title_ok": true,
       "page_title": "Sports Heads Football – Pure JS",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/football.jpg"
     },
     {
       "id": "sausi7:penalty",
@@ -1703,7 +1783,8 @@
       "title_ok": true,
       "page_title": "Spot Kick Duel — Penalty Shootout",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/penalty.jpg"
     },
     {
       "id": "curated:ski-free",
@@ -1721,7 +1802,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/ski-free.jpg"
     },
     {
       "id": "curated:ancient-beast",
@@ -1739,7 +1821,8 @@
       "title_ok": true,
       "page_title": "Ancient Beast v0.5-α",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/ancient-beast.jpg"
     },
     {
       "id": "curated:command-conquer",
@@ -1757,7 +1840,8 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/command-conquer.jpg"
     },
     {
       "id": "curated:freeciv-web",
@@ -1775,7 +1859,8 @@
       "title_ok": true,
       "page_title": "Freeciv-web by freeciv",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/freeciv-web.jpg"
     },
     {
       "id": "curated:infectors",
@@ -1793,7 +1878,8 @@
       "title_ok": true,
       "page_title": "Infectors",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/infectors.jpg"
     },
     {
       "id": "curated:rapid-dominance",
@@ -1811,7 +1897,8 @@
       "title_ok": true,
       "page_title": "Rapid Dominance",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/rapid-dominance.jpg"
     },
     {
       "id": "curated:letreco",
@@ -1829,13 +1916,14 @@
       "title_ok": true,
       "page_title": "",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/letreco.jpg"
     },
     {
       "id": "sausi7:words-of-wonder",
       "slug": "words-of-wonder",
       "name": "Words of Wonder",
-      "category": "word-quiz",
+      "category": "word",
       "tags": [
         "letters",
         "spelling"
@@ -1850,7 +1938,8 @@
       "title_ok": true,
       "page_title": "Words of Wonder",
       "drop": false,
-      "mirrored": true
+      "mirrored": true,
+      "cover": "covers/words-of-wonder.jpg"
     }
   ],
   "mirror": {

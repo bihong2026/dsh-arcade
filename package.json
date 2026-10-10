@@ -1,6 +1,6 @@
 {
 	"name": "@gamehub/dsh-arcade",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"description": "🎮 GameHub Arcade — DeepSeek Harness 侧边栏小游戏中心：94 款实测可玩的开源网页游戏，即点即玩，无需安装。",
 	"license": "MIT",
 	"keywords": [
