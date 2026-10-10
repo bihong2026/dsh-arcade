@@ -87,14 +87,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://lo-th.github.io/3d.city/index.html",
+   "embed": "/games/3d-city/3d.city/index.html",
    "source_repo": "https://github.com/lo-th/3d.city",
    "license": "GPL",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "3D.CITY",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:cube-engine",
@@ -104,14 +105,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://nurgak.github.io/Cube-engine/",
+   "embed": "/games/cube-engine/Cube-engine/index.html",
    "source_repo": "https://github.com/Nurgak/Cube-engine",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Cube Engine v1.0",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:stack-tower",
@@ -125,14 +127,15 @@
    ],
    "description": "Stack 3D blocks for the highest tower.",
    "tech": "three",
-   "embed": "https://sausi-7.github.io/games/games/3d/stack-tower/index.html",
+   "embed": "/games/stack-tower/games/games/3d/stack-tower/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Stack Tower 3D – Neon",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:antipacman",
@@ -142,14 +145,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://vmikhav.github.io/AntiPacMan/",
+   "embed": "/games/antipacman/AntiPacMan/index.html",
    "source_repo": "https://github.com/vmikhav/AntiPacMan",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:arashi",
@@ -159,14 +163,15 @@
    "tags": [],
    "description": "ArashiJS is a Tempest-clone in JavaScript / HTML5",
    "tech": "html5",
-   "embed": "https://stephank.github.io/arashi-js/",
+   "embed": "/games/arashi/arashi-js/index.html",
    "source_repo": "https://github.com/stephank/arashi-js",
    "license": "GPL-2.0",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "ArashiJS",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:avabranch",
@@ -176,14 +181,15 @@
    "tags": [],
    "description": "Avabranch",
    "tech": "html5",
-   "embed": "https://zolmeister.github.io/avabranch/",
+   "embed": "/games/avabranch/avabranch/index.html",
    "source_repo": "https://github.com/Zolmeister/avabranch",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Avabranch",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:ball-and-wall",
@@ -193,14 +199,15 @@
    "tags": [],
    "description": "Ball And Wall - Arkanoid style game",
    "tech": "html5",
-   "embed": "https://budnix.github.io/ball-and-wall/",
+   "embed": "/games/ball-and-wall/ball-and-wall/index.html",
    "source_repo": "https://github.com/budnix/ball-and-wall",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Ball And Wall - Simple arkanoid style game",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:clumsy-bird",
@@ -210,14 +217,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://ellisonleao.github.io/clumsy-bird/",
+   "embed": "/games/clumsy-bird/clumsy-bird/index.html",
    "source_repo": "https://github.com/ellisonleao/clumsy-bird",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Clumsy Bird",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:coil",
@@ -227,14 +235,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://leereilly.github.io/Coil/",
+   "embed": "/games/coil/Coil/index.html",
    "source_repo": "https://github.com/leereilly/Coil",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Coil - Use your trail to enclose enemies in this reflex HTML5 game.",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:crossy-road",
@@ -247,14 +256,15 @@
    ],
    "description": "Hop across roads, rivers, and rails.",
    "tech": "three",
-   "embed": "https://sausi-7.github.io/games/games/arcade/crossy-road/index.html",
+   "embed": "/games/crossy-road/games/games/arcade/crossy-road/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Talha - Crossy Road Game Clone",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:curve-snake",
@@ -267,14 +277,15 @@
    ],
    "description": "Snake-style game with smooth curve trails.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/arcade/curve-snake/index.html",
+   "embed": "/games/curve-snake/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Curvy Snake – Pure JS",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:digger",
@@ -284,14 +295,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://lutzroeder.github.io/digger/",
+   "embed": "/games/digger/digger/index.html",
    "source_repo": "https://github.com/lutzroeder/digger",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Digger",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:dream-weaver",
@@ -304,14 +316,15 @@
    ],
    "description": "Weave glowing trails through a dreamscape.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/arcade/dream-weaver/index.html",
+   "embed": "/games/dream-weaver/games/games/arcade/dream-weaver/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Dream Weaver — Bridges (Aligned)",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:drill-bunny",
@@ -321,14 +334,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://dreamshowadventures.github.io/LudumDare29/",
+   "embed": "/games/drill-bunny/LudumDare29/index.html",
    "source_repo": "https://github.com/DreamShowAdventures/LudumDare29",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Chacket Valleyparker: DRILL BUNNY",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:drunken-viking",
@@ -338,14 +352,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://cxong.github.io/DrunkenViking/",
+   "embed": "/games/drunken-viking/DrunkenViking/index.html",
    "source_repo": "https://github.com/cxong/DrunkenViking",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Drunken Viking",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:kaiju-krush",
@@ -358,14 +373,15 @@
    ],
    "description": "Smash through the city as a giant kaiju.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/arcade/kaiju-krush/index.html",
+   "embed": "/games/kaiju-krush/games/games/arcade/kaiju-krush/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Kaiju Krush",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:lode-runner",
@@ -375,14 +391,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://simonhung.github.io/LodeRunner_TotalRecall/",
+   "embed": "/games/lode-runner/LodeRunner_TotalRecall/index.html",
    "source_repo": "https://github.com/SimonHung/LodeRunner_TotalRecall",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:luma-bounce",
@@ -395,14 +412,15 @@
    ],
    "description": "Bouncy reflex arcade game.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/arcade/luma-bounce/index.html",
+   "embed": "/games/luma-bounce/games/games/arcade/luma-bounce/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "LumaBounce",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:pacman-html5",
@@ -412,14 +430,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://passer-by.com/pacman/",
+   "embed": "/games/pacman-html5/pacman/index.html",
    "source_repo": "https://github.com/mumuy/pacman",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:snake-game-rc",
@@ -429,14 +448,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://ramazancetinkaya.github.io/snake-game/",
+   "embed": "/games/snake-game-rc/snake-game/index.html",
    "source_repo": "https://github.com/ramazancetinkaya/snake-game",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:snake-new",
@@ -446,14 +466,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://rabiroshan.github.io/snake_game/",
+   "embed": "/games/snake-new/snake_game/index.html",
    "source_repo": "https://github.com/RabiRoshan/snake_game",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Snake v8",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:squirts",
@@ -463,14 +484,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://krofdrakula.github.io/squirts/",
+   "embed": "/games/squirts/squirts/index.html",
    "source_repo": "https://github.com/KrofDrakula/squirts",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Squirts",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:swipe-assassin",
@@ -483,14 +505,15 @@
    ],
    "description": "Swipe to slice incoming threats.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/arcade/swipe-assassin/index.html",
+   "embed": "/games/swipe-assassin/games/games/arcade/swipe-assassin/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Swipe Assassin",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:tm-pacman",
@@ -500,14 +523,15 @@
    "tags": [],
    "description": "经典吃豆人，迷宫里吃豆躲鬼",
    "tech": "html5",
-   "embed": "https://tommalbran.github.io/games/pacman/",
+   "embed": "/games/tm-pacman/games/pacman/index.html",
    "source_repo": "https://github.com/tommalbran/games",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:tm-snake",
@@ -517,14 +541,15 @@
    "tags": [],
    "description": "经典贪吃蛇，吃食物变长",
    "tech": "html5",
-   "embed": "https://tommalbran.github.io/games/snake/",
+   "embed": "/games/tm-snake/games/snake/index.html",
    "source_repo": "https://github.com/tommalbran/games",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:chess",
@@ -537,14 +562,15 @@
    ],
    "description": "Classic chess vs the computer.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/board/chess/index.html",
+   "embed": "/games/chess/games/games/board/chess/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Simple Chess — Phaser 3 (PvC + Overlays)",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:hexa-battle",
@@ -554,14 +580,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://itajaja.github.io/hb/",
+   "embed": "/games/hexa-battle/hb/index.html",
    "source_repo": "https://github.com/itajaja/hb",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Hexa Battle",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:ludo",
@@ -575,14 +602,15 @@
    ],
    "description": "Classic Ludo — you vs 3 AI opponents.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/board/ludo/index.html",
+   "embed": "/games/ludo/games/games/board/ludo/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Ludo – You vs 3 AI",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:rock-paper-scissors",
@@ -595,14 +623,15 @@
    ],
    "description": "The timeless hand game vs the AI.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/board/rock-paper-scissors/index.html",
+   "embed": "/games/rock-paper-scissors/games/games/board/rock-paper-scissors/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Rock Paper Scissors",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:connect4",
@@ -612,14 +641,15 @@
    "tags": [],
    "description": "和 AI 对战的四子棋",
    "tech": "html5",
-   "embed": "https://kenrick95.github.io/c4/demo/",
+   "embed": "/games/connect4/c4/demo/index.html",
    "source_repo": "https://github.com/kenrick95/c4",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:vg-go",
@@ -629,14 +659,15 @@
    "tags": [],
    "description": "经典围棋对弈",
    "tech": "html5",
-   "embed": "https://vader941.github.io/minigame/games/go.html",
+   "embed": "/games/vg-go/minigame/games/go.html",
    "source_repo": "https://github.com/Vader941/minigame",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:vg-battleship",
@@ -646,14 +677,15 @@
    "tags": [],
    "description": "经典战舰海战棋",
    "tech": "html5",
-   "embed": "https://vader941.github.io/minigame/games/battleship.html",
+   "embed": "/games/vg-battleship/minigame/games/battleship.html",
    "source_repo": "https://github.com/Vader941/minigame",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:tm-spider",
@@ -663,14 +695,15 @@
    "tags": [],
    "description": "经典接龙类纸牌游戏",
    "tech": "html5",
-   "embed": "https://tommalbran.github.io/games/spider/",
+   "embed": "/games/tm-spider/games/spider/index.html",
    "source_repo": "https://github.com/tommalbran/games",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:a-dark-room",
@@ -680,14 +713,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://hughsk.github.io/ludum-dare-27/",
+   "embed": "/games/a-dark-room/ludum-dare-27/index.html",
    "source_repo": "https://github.com/hughsk/ludum-dare-27",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:matchimals",
@@ -697,14 +731,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://matchimals.fun/",
+   "embed": "/games/matchimals/index.html",
    "source_repo": "https://github.com/chrisheninger/matchimals.fun",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:monster-wants-candy",
@@ -714,14 +749,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://enclavegames.github.io/Monster-Wants-Candy-demo/",
+   "embed": "/games/monster-wants-candy/Monster-Wants-Candy-demo/index.html",
    "source_repo": "https://github.com/EnclaveGames/Monster-Wants-Candy-demo",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Monster Wants Candy demo",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:particle-clicker",
@@ -731,14 +767,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://particle-clicker.github.io/particle-clicker/",
+   "embed": "/games/particle-clicker/particle-clicker/index.html",
    "source_repo": "https://github.com/particle-clicker/particle-clicker",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Particle Clicker",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:sandboxels",
@@ -748,14 +785,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://r74ncom.github.io/sandboxels/",
+   "embed": "/games/sandboxels/sandboxels/index.html",
    "source_repo": "https://github.com/R74nCom/sandboxels",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Sandboxels - Experiment with Pixels",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:slotjs",
@@ -765,14 +803,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://danziger.github.io/slotjs/",
+   "embed": "/games/slotjs/slotjs/index.html",
    "source_repo": "https://github.com/Danziger/slotjs",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:the-house",
@@ -782,14 +821,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://arturkot.github.io/the-house-game/",
+   "embed": "/games/the-house/the-house-game/index.html",
    "source_repo": "https://github.com/arturkot/the-house-game",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "The House",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:turkey-cooking-simulator",
@@ -799,14 +839,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://fernjager.github.io/game-off-2013/",
+   "embed": "/games/turkey-cooking-simulator/game-off-2013/index.html",
    "source_repo": "https://github.com/fernjager/game-off-2013",
    "license": "GPL",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Turkey Cooking Simulator",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:alge-s-escapade",
@@ -816,14 +857,15 @@
    "tags": [],
    "description": "Alge's Escapade",
    "tech": "html5",
-   "embed": "https://dave-and-mike.github.io/game-off-2012/",
+   "embed": "/games/alge-s-escapade/game-off-2012/index.html",
    "source_repo": "https://github.com/Dave-and-Mike/game-off-2012",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Alge's Escapade",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:color-quest",
@@ -833,14 +875,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://redbluegames.github.io/game-off-2013/",
+   "embed": "/games/color-quest/game-off-2013/index.html",
    "source_repo": "https://github.com/redbluegames/game-off-2013",
    "license": "GPL",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Color Quest - Red Blue Games",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:emberwind",
@@ -850,14 +893,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://operasoftware.github.io/Emberwind/",
+   "embed": "/games/emberwind/Emberwind/index.html",
    "source_repo": "https://github.com/operasoftware/Emberwind",
    "license": "BSD",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Emberwind",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:hyperspace-garbage-collector",
@@ -867,14 +911,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://razh.github.io/game-off-2013/",
+   "embed": "/games/hyperspace-garbage-collector/game-off-2013/index.html",
    "source_repo": "https://github.com/razh/game-off-2013",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Hyperspace Garbage Collection",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:octocat-jump",
@@ -884,14 +929,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://ogoshen.github.io/game-off-2012/",
+   "embed": "/games/octocat-jump/game-off-2012/index.html",
    "source_repo": "https://github.com/ogoshen/game-off-2012",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Octocat Jump",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:super-mario-bros",
@@ -901,14 +947,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://martindrapeau.github.io/backbone-game-engine/super-mario-bros/index.html",
+   "embed": "/games/super-mario-bros/backbone-game-engine/super-mario-bros/index.html",
    "source_repo": "https://github.com/martindrapeau/backbone-game-engine",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Super Mario Bros Level 1-1 - Backbone Game Engine",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:transcube",
@@ -918,14 +965,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://jeroenverfallie.github.io/ggo13-transcube/",
+   "embed": "/games/transcube/ggo13-transcube/index.html",
    "source_repo": "https://github.com/jeroenverfallie/ggo13-transcube",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:2048-og",
@@ -935,14 +983,15 @@
    "tags": [],
    "description": "原版开源 2048，滑块合并抵达 2048",
    "tech": "html5",
-   "embed": "https://gabrielecirulli.github.io/2048/",
+   "embed": "/games/2048-og/2048/index.html",
    "source_repo": "https://github.com/gabrielecirulli/2048",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "2048",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:blockrain-js",
@@ -952,14 +1001,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://aerolab.github.io/blockrain.js/",
+   "embed": "/games/blockrain-js/blockrain.js/index.html",
    "source_repo": "https://github.com/Aerolab/blockrain.js",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Blockrain.js - A Tetris game in HTML5 + Javascript (with autoplay!)",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:alchemy",
@@ -969,14 +1019,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://ozh.github.io/alchemy/",
+   "embed": "/games/alchemy/alchemy/index.html",
    "source_repo": "https://github.com/ozh/alchemy",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:custom-tetris",
@@ -986,14 +1037,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://ondras.github.io/custom-tetris/",
+   "embed": "/games/custom-tetris/custom-tetris/index.html",
    "source_repo": "https://github.com/ondras/custom-tetris",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Custom Tetris",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:hex-2048",
@@ -1003,14 +1055,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://jeffhou.github.io/hex-2048/",
+   "embed": "/games/hex-2048/hex-2048/index.html",
    "source_repo": "https://github.com/jeffhou/hex-2048",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Hex 2048",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:hex-puzzle",
@@ -1023,14 +1076,15 @@
    ],
    "description": "Place hex blocks to clear the board.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/puzzle/hex-puzzle/index.html",
+   "embed": "/games/hex-puzzle/games/games/puzzle/hex-puzzle/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Hex Puzzle – Pure JS (Enhanced)",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:hextris",
@@ -1040,14 +1094,15 @@
    "tags": [],
    "description": "快节奏六边形旋转消除",
    "tech": "html5",
-   "embed": "https://hextris.github.io/hextris/",
+   "embed": "/games/hextris/hextris/index.html",
    "source_repo": "https://github.com/Hextris/hextris",
    "license": "GPL-3.0",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:line-trap",
@@ -1060,14 +1115,15 @@
    ],
    "description": "Trap the dot inside your line.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/puzzle/line-trap/index.html",
+   "embed": "/games/line-trap/games/games/puzzle/line-trap/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Line Trap",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:masonry-javascript-tetris-clone",
@@ -1077,14 +1133,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://gamedolphin.github.io/Masonry-JavaScript-Tetris-Clone/",
+   "embed": "/games/masonry-javascript-tetris-clone/Masonry-JavaScript-Tetris-Clone/index.html",
    "source_repo": "https://github.com/gamedolphin/Masonry-JavaScript-Tetris-Clone",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Masonry - Game Dolphin",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:matching-pairs",
@@ -1094,14 +1151,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://gamedolphin.github.io/matching-pairs/",
+   "embed": "/games/matching-pairs/matching-pairs/index.html",
    "source_repo": "https://github.com/gamedolphin/matching-pairs",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:orbium",
@@ -1111,14 +1169,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://bni.github.io/orbium/",
+   "embed": "/games/orbium/orbium/index.html",
    "source_repo": "https://github.com/bni/orbium",
    "license": "GPL",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Orbium",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:parity",
@@ -1128,14 +1187,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://abejfehr.github.io/parity/",
+   "embed": "/games/parity/parity/index.html",
    "source_repo": "https://github.com/abejfehr/parity",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Parity",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:sliding-puzzle",
@@ -1145,14 +1205,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://gamedolphin.github.io/sliding_puzzle/",
+   "embed": "/games/sliding-puzzle/sliding_puzzle/index.html",
    "source_repo": "https://github.com/gamedolphin/sliding_puzzle",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Sliding Puzzle - Game Dolphin",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:sudoku",
@@ -1166,14 +1227,15 @@
    ],
    "description": "Classic 9x9 number logic puzzle.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/puzzle/sudoku/index.html",
+   "embed": "/games/sudoku/games/games/puzzle/sudoku/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Sudoku with Timer & Celebration",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:tetris",
@@ -1186,14 +1248,15 @@
    ],
    "description": "The classic falling-block puzzle.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/puzzle/tetris/index.html",
+   "embed": "/games/tetris/games/games/puzzle/tetris/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Pure JS Tetris – Immersive Portrait",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:tm-tetris",
@@ -1203,14 +1266,15 @@
    "tags": [],
    "description": "经典俄罗斯方块，行消除得分",
    "tech": "html5",
-   "embed": "https://tommalbran.github.io/games/tetris/",
+   "embed": "/games/tm-tetris/games/tetris/index.html",
    "source_repo": "https://github.com/tommalbran/games",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Tetris",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:untrusted",
@@ -1220,14 +1284,15 @@
    "tags": [],
    "description": "修改 JavaScript 代码通关的元游戏",
    "tech": "html5",
-   "embed": "https://untrustedgame.com/",
+   "embed": "/games/untrusted/index.html",
    "source_repo": "https://github.com/AlexNisnevich/untrusted",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Untrusted - a user javascript adventure game",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:zoko",
@@ -1237,14 +1302,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://lulea.github.io/game-off-2012/",
+   "embed": "/games/zoko/game-off-2012/index.html",
    "source_repo": "https://github.com/lulea/game-off-2012",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Zoko",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "manual:vg-memory",
@@ -1254,14 +1320,15 @@
    "tags": [],
    "description": "翻牌配对记忆游戏",
    "tech": "html5",
-   "embed": "https://vader941.github.io/minigame/games/memory.html",
+   "embed": "/games/vg-memory/minigame/games/memory.html",
    "source_repo": "https://github.com/Vader941/minigame",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:car-race",
@@ -1275,14 +1342,15 @@
    ],
    "description": "3D car-racing run with traffic dodging.",
    "tech": "three",
-   "embed": "https://sausi-7.github.io/games/games/racing/car-race/index.html",
+   "embed": "/games/car-race/games/games/racing/car-race/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Car Runner 3D",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:hexgl",
@@ -1295,14 +1363,15 @@
    ],
    "description": "Futuristic WebGL racing game (Three.js).",
    "tech": "html5",
-   "embed": "https://hexgl.bkcore.com/play",
+   "embed": "/games/hexgl/play/index.html",
    "source_repo": "https://github.com/BKcore/HexGL",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:hauberk",
@@ -1312,14 +1381,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://munificent.github.io/hauberk/",
+   "embed": "/games/hauberk/hauberk/index.html",
    "source_repo": "https://github.com/munificent/hauberk",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Hauberk",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:alien-invasion",
@@ -1329,14 +1399,15 @@
    "tags": [],
    "description": "Demo Game for Mobile HTML5 Game Development",
    "tech": "html5",
-   "embed": "https://cykod.github.io/AlienInvasion/",
+   "embed": "/games/alien-invasion/AlienInvasion/index.html",
    "source_repo": "https://github.com/cykod/AlienInvasion",
    "license": "GPL-2.0",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:bananabread",
@@ -1346,14 +1417,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://kripken.github.io/BananaBread/",
+   "embed": "/games/bananabread/BananaBread/index.html",
    "source_repo": "https://github.com/kripken/BananaBread",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "BananaBread",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:escape-space",
@@ -1363,14 +1435,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://calinou.github.io/escape-space/",
+   "embed": "/games/escape-space/escape-space/index.html",
    "source_repo": "https://github.com/Calinou/escape-space",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:fighter-fury",
@@ -1383,14 +1456,15 @@
    ],
    "description": "Side-scrolling jet shooter.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/shooter/fighter-fury/index.html",
+   "embed": "/games/fighter-fury/games/games/shooter/fighter-fury/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Jet Fighter - Portrait",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:fighter-jet",
@@ -1403,14 +1477,15 @@
    ],
    "description": "Top-down jet combat.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/shooter/fighter-jet/index.html",
+   "embed": "/games/fighter-jet/games/games/shooter/fighter-jet/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Jet Fighter - Portrait",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:space-fighter",
@@ -1423,14 +1498,15 @@
    ],
    "description": "Dogfight through asteroid fields.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/shooter/space-fighter/index.html",
+   "embed": "/games/space-fighter/games/games/shooter/space-fighter/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Jet Fighter - Portrait",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:spashal",
@@ -1440,14 +1516,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://mrrar.github.io/spashal/",
+   "embed": "/games/spashal/spashal/index.html",
    "source_repo": "https://github.com/MrRar/spashal",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Spashal",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:star-battle",
@@ -1457,14 +1534,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://4ark.me/star-battle/",
+   "embed": "/games/star-battle/star-battle/index.html",
    "source_repo": "https://github.com/gd4Ark/star-battle",
    "license": "MIT",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:window-shooter",
@@ -1477,14 +1555,15 @@
    ],
    "description": "Pick off enemies through the window.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/shooter/window-shooter/index.html",
+   "embed": "/games/window-shooter/games/games/shooter/window-shooter/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Window Shooter Game",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:wpilot",
@@ -1494,14 +1573,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://jfd.github.io/wpilot/",
+   "embed": "/games/wpilot/wpilot/index.html",
    "source_repo": "https://github.com/jfd/wpilot",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "WPilot - a space journey in your browser",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:zedinvaders",
@@ -1511,14 +1591,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://salvatorecapolupo.github.io/zedinvaders/",
+   "embed": "/games/zedinvaders/zedinvaders/index.html",
    "source_repo": "https://github.com/salvatorecapolupo/zedinvaders",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:archer",
@@ -1532,14 +1613,15 @@
    ],
    "description": "Aim, draw, and release. Hit your target.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/sports/archer/index.html",
+   "embed": "/games/archer/games/games/sports/archer/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Archery Game",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:bowling",
@@ -1553,14 +1635,15 @@
    ],
    "description": "Knock down all the pins.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/sports/bowling/index.html",
+   "embed": "/games/bowling/games/games/sports/bowling/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "StrikeFlow — Ten‑Pin Bowling",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:classic-pool-game",
@@ -1570,14 +1653,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://henshmi.github.io/Classic-Pool-Game/",
+   "embed": "/games/classic-pool-game/Classic-Pool-Game/index.html",
    "source_repo": "https://github.com/henshmi/Classic-Pool-Game",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:football",
@@ -1590,14 +1674,15 @@
    ],
    "description": "Score goals in a fast-paced footy match.",
    "tech": "html",
-   "embed": "https://sausi-7.github.io/games/games/sports/football/index.html",
+   "embed": "/games/football/games/games/sports/football/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Sports Heads Football – Pure JS",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:penalty",
@@ -1610,14 +1695,15 @@
    ],
    "description": "One-on-one penalty kicks vs the keeper.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/sports/penalty/index.html",
+   "embed": "/games/penalty/games/games/sports/penalty/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Spot Kick Duel — Penalty Shootout",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:ski-free",
@@ -1627,14 +1713,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://basicallydan.github.io/skifree.js/",
+   "embed": "/games/ski-free/skifree.js/index.html",
    "source_repo": "https://github.com/basicallydan/skifree.js",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:ancient-beast",
@@ -1644,14 +1731,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://freezingmoon.github.io/AncientBeast/",
+   "embed": "/games/ancient-beast/AncientBeast/index.html",
    "source_repo": "https://github.com/FreezingMoon/AncientBeast",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Ancient Beast v0.5-α",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:command-conquer",
@@ -1661,14 +1749,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://adityaravishankar.github.io/command-and-conquer/",
+   "embed": "/games/command-conquer/command-and-conquer/index.html",
    "source_repo": "https://github.com/adityaravishankar/command-and-conquer",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:freeciv-web",
@@ -1678,14 +1767,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://freeciv.github.io/freeciv-web/",
+   "embed": "/games/freeciv-web/freeciv-web/index.html",
    "source_repo": "https://github.com/freeciv/freeciv-web",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Freeciv-web by freeciv",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:infectors",
@@ -1695,14 +1785,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://satanas.github.io/infectors/",
+   "embed": "/games/infectors/infectors/index.html",
    "source_repo": "https://github.com/satanas/infectors",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Infectors",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:rapid-dominance",
@@ -1712,14 +1803,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://wenta.github.io/rapid-dominance/",
+   "embed": "/games/rapid-dominance/rapid-dominance/index.html",
    "source_repo": "https://github.com/wenta/rapid-dominance",
    "license": "Apache-2.0",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Rapid Dominance",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "curated:letreco",
@@ -1729,14 +1821,15 @@
    "tags": [],
    "description": "",
    "tech": "html5",
-   "embed": "https://www.gabtoschi.com/letreco/",
+   "embed": "/games/letreco/letreco/index.html",
    "source_repo": "https://github.com/gabtoschi/letreco",
    "license": "custom",
    "strict_title": false,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   },
   {
    "id": "sausi7:words-of-wonder",
@@ -1749,14 +1842,19 @@
    ],
    "description": "Build words from a wheel of letters.",
    "tech": "phaser",
-   "embed": "https://sausi-7.github.io/games/games/word-quiz/words-of-wonder/index.html",
+   "embed": "/games/words-of-wonder/games/games/word-quiz/words-of-wonder/index.html",
    "source_repo": "https://github.com/sausi-7/games",
    "license": "MIT",
    "strict_title": true,
    "embed_ok": true,
    "title_ok": true,
    "page_title": "Words of Wonder",
-   "drop": false
+   "drop": false,
+   "mirrored": true
   }
- ]
+ ],
+ "mirror": {
+  "count": 94,
+  "note": "all games self-hosted"
+ }
 }
