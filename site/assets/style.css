@@ -123,3 +123,30 @@ body[data-compact] .hero { padding: 12px 0 0; }
 body[data-compact] .hero h1 { font-size: 18px; }
 body[data-compact] .grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; padding-bottom: 20px; }
 body[data-compact] .card { padding: 10px; min-height: 96px; }
+
+/* ---- v0.3 UI polish ---- */
+.hero { position: relative; padding: 40px 0 10px; }
+.hero::before {
+  content: ''; position: absolute; inset: -60px 0 auto 0; height: 220px; z-index: -1;
+  background:
+    radial-gradient(600px 200px at 15% 0%, rgba(245,158,11,.14), transparent 70%),
+    radial-gradient(500px 180px at 85% 10%, rgba(251,146,60,.10), transparent 70%);
+  pointer-events: none;
+}
+.card { box-shadow: 0 1px 2px rgba(16,24,40,.04); }
+.card:hover { box-shadow: 0 10px 24px rgba(16,24,40,.10); }
+.card-cover { transition: transform .25s ease; }
+.card:hover .card-cover { transform: scale(1.04); }
+.card-cover-wrap { position: relative; overflow: hidden; border-radius: var(--gb-radius) var(--gb-radius) 0 0; }
+.badge-nes {
+  position: absolute; top: 8px; left: 8px; z-index: 2;
+  background: linear-gradient(90deg,#e11d48,#be123c); color: #fff;
+  font-size: 10px; font-weight: 700; letter-spacing: .5px;
+  padding: 2px 8px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,0,0,.25);
+}
+.cat-btn { transition: all .15s ease; }
+.cat-btn:hover { border-color: var(--gb-accent); color: var(--gb-fg); }
+.site-header { box-shadow: 0 1px 0 rgba(16,24,40,.03); }
+.btn-ghost, .cat-btn { -webkit-tap-highlight-color: transparent; }
+[data-theme="dark"] .card { box-shadow: 0 1px 2px rgba(0,0,0,.4); }
+[data-theme="dark"] .card:hover { box-shadow: 0 10px 24px rgba(0,0,0,.5); }

@@ -77,8 +77,8 @@
       card.setAttribute('data-id', g.id);
       var fav = favs().indexOf(g.id) >= 0;
       card.innerHTML =
-        (g.cover ? '<img class="card-cover" loading="lazy" alt="" src="' + esc(g.cover) + '">' :
-                   '<span class="card-emoji">' + gameEmoji(g) + '</span>') +
+        (g.cover ? '<div class="card-cover-wrap">' + (g.nes ? '<span class="badge-nes">NES</span>' : '') + '<img class="card-cover" loading="lazy" alt="" src="' + esc(g.cover) + '"></div>' :
+                   '<div class="card-cover-wrap">' + (g.nes ? '<span class="badge-nes">NES</span>' : '') + '<span class="card-emoji">' + gameEmoji(g) + '</span></div>') +
         '<div class="card-body">' +
         '<div class="card-top"><span class="card-name">' + esc(g.name) + '</span>' +
         '<span class="card-cat" data-fav="' + (fav ? '⭐' : '☆') + '">' + (fav ? '⭐' : (CAT_META[g.category] || {}).label || '') + '</span></div>' +
