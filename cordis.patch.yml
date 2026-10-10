@@ -1,8 +1,19 @@
-# GameHub Arcade plugin bundle for DeepSeek Harness (cordis patch).
-# Mounts the Host + Client halves: Host registers /gamehub-arcade/api,
-# Client registers the sidebar Games tab via client-ui-slots.
-# Install (local path or npm):
-#   dsh plugin --profile <name> add @gamehub/dsh-arcade@<version>
+# GameHub Arcade：侧栏一个「游戏」页，打开即 94 款实测可玩的开源网页游戏。
+#
+# 它占两个官方插槽（都用同一个 id 串起来），不改任何官方文件：
+#   - sidebar.panellist         侧栏那一项「游戏」
+#   - 布局 root 的 keyed main   点侧栏那一项打开的整页
+#
+# 浏览器半用沙箱 iframe 装载游戏中心站点（siteBase），游戏与站点数据全部
+# 在站点侧运行；iframe 与 DSH 跨源，站点脚本碰不到宿主数据。
+#
+# siteBase 说明：
+#   游戏中心站点地址（站点本体 + /games/ 下的全部游戏镜像都在同一台服务器）。
+#   默认指向仓库作者公网部署的那一份，装完不改任何配置就能玩。
+#   自建站点的，改 siteBase 这一行即可，或设环境变量 GAMEHUB_SITE_BASE（优先级最高）。
+#   改完要重启应用才生效。
 - insert:
     - id: gamehub-arcade
       name: '@gamehub/dsh-arcade'
+      config:
+        siteBase: 'http://122.51.206.118/'
