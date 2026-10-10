@@ -10,7 +10,8 @@
 <a href="https://github.com/bihong2026/dsh-arcade/network/members"><img src="https://img.shields.io/github/forks/bihong2026/dsh-arcade?style=flat-square" alt="Forks"></a>
 <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License">
 <img src="https://img.shields.io/badge/platform-dsh--web-blue?style=flat-square" alt="DSH web">
-<img src="https://img.shields.io/badge/games-26%2B%20%E2%86%92%201000-orange?style=flat-square" alt="Games count">
+<img src="https://img.shields.io/badge/games-94%20verified-orange?style=flat-square" alt="Games count">
+<a href="https://gitee.com/bihong2023/dsh-arcade"><img src="https://img.shields.io/badge/mirror-Gitee-red?style=flat-square" alt="Gitee mirror"></a>
 </p>
 
 <p align="center">
@@ -23,25 +24,54 @@
 
 **GameHub Arcade** 是一个 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 插件。安装后，DSH Web 界面侧边栏会多出一个 **🎮 游戏** 标签，点开就是完整的游戏中心：
 
-- 🕹️ **26+ 上线游戏，持续扩充**：贪吃蛇、2048、俄罗斯方块、吃豆人、扫雷、围棋、Hextris……全部来自开源社区（MIT 等），逐个验证可嵌入、可实际运行后收录
+- 🕹️ **94 款上线游戏，全部逐个实测**：贪吃蛇、2048、俄罗斯方块、吃豆人、扫雷、围棋、Hextris……全部来自开源社区（MIT 等），逐个验证可嵌入、可实际运行后收录
 - ⚡ **即点即玩**：游戏在沙箱 iframe 中运行，不装任何本地依赖
 - 🔍 **搜索 / 分类 / 收藏 / 随机**：棋盘游戏、街机、益智、3D 等 10 大分类
 - 🌓 **明暗主题**：跟随系统，护眼
 - 🔒 **安全沙箱**：不授予 same-origin，游戏无法访问 DSH 数据
 - 🧩 **持续扩展**：目录是纯 JSON，一条记录 = 一个新游戏（见 [收录新游戏](#-收录新游戏)）
 
-同时包含一个可独立部署的**游戏网站**（GitHub Pages / Cloudflare Pages 皆可），插件只是把同一个网站嵌入侧边栏——一个目录，两个入口，流量共享。
+同时包含一个可独立部署的**游戏网站**，插件只是把同一个网站嵌入侧边栏——一个目录，两个入口，流量共享。当前线上实例：<https://122.51.206.118/>（94 款游戏全量自托管，不依赖任何代码托管平台）
 
 ## 📦 安装
 
-在 DeepSeek Harness 终端中执行：
+在 DeepSeek Harness 终端中执行（把 `<profile>` 换成你的 profile 名，如 `web`）：
+
+**方式 A —— 本地目录（最稳，推荐）**
+
+从任一来源下载代码后，指到含 `package.json` 的目录：
 
 ```bash
-# 推荐固定版本
-dsh plugin --profile web add github:bihong2026/dsh-arcade#v0.1.0
+# GitHub
+git clone https://github.com/bihong2026/dsh-arcade.git
+# 或 Gitee（国内更快）
+git clone https://gitee.com/bihong2023/dsh-arcade.git
 
-# 或跟踪 main 分支
-dsh plugin --profile web add github:bihong2026/dsh-arcade#main
+dsh plugin --profile web add ./dsh-arcade
+```
+
+**方式 B —— 直接从 Git 仓库安装**
+
+`dsh plugin add` 会把参数原样交给 pnpm，因此只接受 pnpm 认识的源格式：GitHub 用简写 `github:owner/repo`，Gitee 等其它站点用完整 git URL。
+
+```bash
+# GitHub（简写）
+dsh plugin --profile web add "github:bihong2026/dsh-arcade#v0.1.2"
+
+# Gitee（完整 git URL，注意 git+ 前缀与 #标签）
+dsh plugin --profile web add "git+https://gitee.com/bihong2023/dsh-arcade.git#v0.1.2"
+
+# 跟踪 main 分支（两边同理）
+dsh plugin --profile web add "github:bihong2026/dsh-arcade#main"
+dsh plugin --profile web add "git+https://gitee.com/bihong2023/dsh-arcade.git#main"
+```
+
+> Git 源拉取的是**源码**，pnpm 10+ 需要授权才能跑构建脚本。本仓库已提交 `lib/` 构建产物，无需本地构建；若安装时报 `Ignored build scripts`，按提示执行 `pnpm approve-builds` 即可（或直接用方式 A / 方式 C，跳过构建）。
+
+**方式 C —— tarball（无网络依赖，最适合离线交付）**
+
+```bash
+dsh plugin add ./dsh-arcade-0.1.2.tgz
 ```
 
 重启 `dsh web` 并刷新页面，侧边栏即出现 **🎮 游戏** 标签。
@@ -112,10 +142,13 @@ python3 scripts/ingest.py        # 拉取全部 registry 源并校验，重建�
 
 ## 🚀 部署独立网站（可选）
 
+线上实例已自托管在独立服务器（nginx，含 94 款游戏全量镜像）。自建时：
+
 ```bash
-# GitHub Pages：仓库设置中把 site/ 设为 Pages 源，或用 gh-pages 分支
-# Cloudflare Pages：构建命令留空，输出目录填 site/
 python3 -m http.server 8080 --directory site   # 本地预览
+# 静态托管：任意支持静态文件的即可（nginx / GitHub Pages / Cloudflare Pages）
+# 游戏全量镜像（可选，彻底摆脱外网依赖）：
+python3 scripts/mirror2.py /path/to/mirror   # 抓取全部游戏静态文件
 ```
 
 ## 🔖 插件市场与 SEO
@@ -129,7 +162,8 @@ python3 -m http.server 8080 --directory site   # 本地预览
 - [x] 插件骨架 + 侧边栏标签 + 沙箱播放器
 - [x] 目录管线与可嵌入性校验
 - [x] 网站启动页（搜索/分类/收藏/随机/全屏）
-- [ ] 26 → 1000+ 游戏扩充（持续跑 ingest，欢迎 PR）
+- [x] 94 款游戏全量自托管（scripts/mirror2.py 镜像管线）
+- [ ] 94 → 1000+ 游戏扩充（持续跑 ingest，欢迎 PR）
 - [ ] 游戏排行榜（localStorage 起步，后端可选）
 - [ ] 中英文目录元数据
 - [ ] DSH 主题色适配（读取 --dsw-* tokens）
