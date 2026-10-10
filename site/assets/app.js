@@ -153,14 +153,14 @@
     };
     document.getElementById('theme-btn').onclick = function () {
       var d = document.documentElement;
-      var light = d.getAttribute('data-theme') === 'light';
-      d.setAttribute('data-theme', light ? '' : 'light');
-      localStorage.setItem('gb_theme', light ? 'dark' : 'light');
-      document.getElementById('theme-btn').textContent = light ? '🌙' : '☀️';
+      var dark = d.getAttribute('data-theme') === 'dark';
+      d.setAttribute('data-theme', dark ? '' : 'dark');
+      localStorage.setItem('gb_theme', dark ? 'light' : 'dark');
+      document.getElementById('theme-btn').textContent = dark ? '☀️' : '🌙';
     };
-    if (localStorage.getItem('gb_theme') === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
-      document.getElementById('theme-btn').textContent = '☀️';
+    if (localStorage.getItem('gb_theme') === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      document.getElementById('theme-btn').textContent = '🌙';
     }
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && !document.getElementById('player').hidden) closePlayer();

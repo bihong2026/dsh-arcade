@@ -1,22 +1,22 @@
-/* GameHub theme — dark-first, CSS vars for easy re-skinning.
+/* GameHub theme — light-first, CSS vars for easy re-skinning.
    Plugin sidebar uses the same file; --gb- prefixed vars are safe to override
    by a host page (e.g. DeepSeek Harness sidebar container). */
 :root {
+  --gb-bg: #f6f7fb; --gb-bg-2: #ffffff; --gb-card: #ffffff; --gb-card-hover: #f0f2f8;
+  --gb-fg: #171c28; --gb-fg-dim: #5b6575; --gb-border: #e3e7ef;
+  --gb-accent: #f59e0b;
+  --gb-accent-2: #fb923c;
+  --gb-radius: 12px;
+  --gb-font: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+[data-theme="dark"] {
   --gb-bg: #0b0e14;
   --gb-bg-2: #11151f;
   --gb-card: #171c28;
   --gb-card-hover: #1f2635;
   --gb-fg: #e8ecf3;
   --gb-fg-dim: #94a0b3;
-  --gb-accent: #f59e0b;
-  --gb-accent-2: #fb923c;
   --gb-border: #232a3a;
-  --gb-radius: 12px;
-  --gb-font: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-}
-[data-theme="light"] {
-  --gb-bg: #f6f7fb; --gb-bg-2: #ffffff; --gb-card: #ffffff; --gb-card-hover: #f0f2f8;
-  --gb-fg: #171c28; --gb-fg-dim: #5b6575; --gb-border: #e3e7ef;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
@@ -101,7 +101,7 @@ a:hover { text-decoration: underline; }
 .player-title { flex: 1; font-weight: 600; text-align: center; }
 .player-tools { display: flex; gap: 6px; }
 .player-tools .btn-ghost { text-decoration: none; }
-#player-frame { flex: 1; border: 0; width: 100%; background: #000; }
+#player-frame { flex: 1; border: 0; width: 100%; background: #fff; }
 
 /* footer */
 .site-footer { border-top: 1px solid var(--gb-border); padding: 18px 0; color: var(--gb-fg-dim); font-size: 13px; }
