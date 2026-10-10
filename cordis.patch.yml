@@ -1,3 +1,8 @@
 # GameHub Arcade plugin bundle for DeepSeek Harness (cordis patch).
-# Mounts the client script into the DSH web client, same mechanism as
-# reference community plugins (dsh-plugin-sidebar etc.).
+# Mounts the Host + Client halves: Host registers /gamehub-arcade/api,
+# Client registers the sidebar Games tab via client-ui-slots.
+# Install (local path or npm):
+#   dsh plugin --profile <name> add @gamehub/dsh-arcade@<version>
+- insert:
+    - id: gamehub-arcade
+      name: '@gamehub/dsh-arcade'
