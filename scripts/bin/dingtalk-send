@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""DingTalk webhook sender with HMAC-SHA256 signing.
+
+Usage:
+    dingtalk-send "消息文本"                # 纯文本
+    dingtalk-send --title 标题 "markdown内容"  # markdown
+    dingtalk-send --link 标题 链接 [说明]      # 链接卡片
+
+Secret read from ~/.tokens/dingtalk_secret (SEC...).
+Webhook token from ~/.tokens/dingtalk_webhook (access_token value) or DINGTALK_TOKEN env.
+"""
+import base64
+import hashlib
+import hmac
+import json
+import os
+import sys
+import time
+import urllib.parse
+import urllib.request
+
+HOME = os.path.expanduser("~")
+SECRET_FILE = os.path.join(HOME, ".tokens", "dingtalk_secret")
+TOKEN_FILE = os.path.join(HOME, ".tokens", "dingtalk_webhook")
+
+TOKEN = os.environ.get("DINGTALK_TOKEN") or (
+    open(TOKEN_FILE).read().strip() if os.path.exists(TOKEN_FILE) else ""
+)
+if not TOKEN:
+    sys.exit("缺少 webhook token：请写入 " + TOKEN_FILE)
+SECRET = open(SECRET_FILE).read().strip()
+
+
+def signed_url() -> str:
+    ts = str(round(time.time() * 1000))
+    string_to_sign = f"{ts}\n{SECRET}"
+    hmac_code = hmac.new(
+        SECRET.encode(), string_to_sign.encode(), digestmod=hashlib.sha256
+    ).digest()
+    sign = urllib.parse.quote_plus(base64.b64encode(hmac_code))
+    return (
+        f"https://oapi.dingtalk.com/robot/send?access_token={TOKEN}"
+        f"&timestamp={ts}&sign={sign}"
+    )
+
+
+def send(payload: dict) -> dict:
+    req = urllib.request.Request(
+        signed_url(),
+        data=json.dumps(payload).encode(),
+        headers={"Content-Type": "application/json"},
+    )
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        return json.loads(resp.read())
+
+
+def main():
+    args = sys.argv[1:]
+    if not args:
+        print(__doc__)
+        sys.exit(1)
+    if args[0] == "--title":
+        payload = {"msgtype": "markdown",
+                   "markdown": {"title": args[1], "text": args[2]}}
+    elif args[0] == "--link":
+        title, url = args[1], args[2]
+        text = args[3] if len(args) > 3 else ""
+        payload = {"msgtype": "link",
+                   "link": {"title": title, "messageUrl": url, "text": text}}
+    else:
+        payload = {"msgtype": "text", "text": {"content": args[0]}}
+    result = send(payload)
+    ok = result.get("errcode") == 0
+    print(json.dumps(result, ensure_ascii=False))
+    sys.exit(0 if ok else 1)
+
+
+if __name__ == "__main__":
+    main()
